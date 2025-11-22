@@ -27,13 +27,13 @@ def get_models(model_provider: str = "ollama"):
     """Initialize chat and embedding models."""
     if model_provider == "openai":
         chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0.1)
-        embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
+        embedding_model = OllamaEmbeddings(model="bge-m3")
     elif model_provider == "groq":
         chat_model = ChatGroq(model="llama-3.1-70b-versatile", temperature=0.1)
-        embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
+        embedding_model = OllamaEmbeddings(model="bge-m3")
     else:
         chat_model = ChatOllama(model="llama3.1:latest", temperature=0.1)
-        embedding_model = OllamaEmbeddings(model="nomic-embed-text")
+        embedding_model = OllamaEmbeddings(model="bge-m3")
     return chat_model, embedding_model
 
 
@@ -66,7 +66,7 @@ def create_embedding_func(embedding_model):
 
 
 def query(
-    query_text: str, model_provider: str = "ollama", working_dir: str = "./rag_storage"
+    query_text: str, model_provider: str = "ollama", working_dir: str = "./rag_storage_simple"
 ) -> str:
     """
     Query stored documents and return answer.
@@ -125,8 +125,8 @@ def query(
 def main():
     """Main entry point."""
 
-    query_text = "Can you give more details about Vaswani?"
-    model_provider = "ollama"
+    query_text = "Can you give more details about Vaswani also give his email address?"
+    model_provider = "openai"
 
     try:
         answer = query(query_text, model_provider=model_provider)

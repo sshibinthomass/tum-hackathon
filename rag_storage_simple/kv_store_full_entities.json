@@ -1,0 +1,25 @@
+{
+  "doc-40a784e30826cafaf7507afb74a6ca2b": {
+    "entity_names": [
+      "Transformer model architecture (discarded)",
+      "unknown_entity (unknown)",
+      "Transformer Model Architecture (image)",
+      "Technical Illustration of Transformer Attention Mechanisms (image)",
+      "Scaled Dot-Product Attention (equation)",
+      "Theoretical Explanation of Dot Products in Attention Mechanisms (discarded)",
+      "Transformer architecture and attention mechanisms (discarded)",
+      "Multi-Head Attention Mechanism (equation)",
+      "Feed-Forward Network Activation Function (equation)",
+      "discarded content (discarded)",
+      "Maximum path lengths, complexity per layer and sequential operations for different layer types (table)",
+      "Positional Encoding Equation (equation)",
+      "Learning Rate Schedule for Adam Optimizer (equation)",
+      "Table 2: BLEU scores and training costs for different models (table)",
+      "Computational Resources for Training Deep Learning Models (discarded)"
+    ],
+    "count": 15,
+    "update_time": 1763824581,
+    "create_time": 1763824581,
+    "_id": "doc-40a784e30826cafaf7507afb74a6ca2b"
+  }
+}

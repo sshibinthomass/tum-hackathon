@@ -159,6 +159,8 @@ Thumbs.db
 # Google Cloud credentials
 *.json
 !data/*.json
+!rag_storage/**/*.json
+!rag_storage_simple/**/*.json
 !pyproject.toml
 
 # Data files (uncomment if you want to ignore data)
@@ -175,4 +177,10 @@ logs/
 
 # uv
 .uv/
+
+# RAG storage folders - allow all contents
+!rag_storage/
+!rag_storage/**/*
+!rag_storage_simple/
+!rag_storage_simple/**/*
 

@@ -1,0 +1,45 @@
+{
+  "doc-5ee76d292ed38516eaaa120a041915dc": {
+    "status": "processed",
+    "chunks_count": 26,
+    "chunks_list": [
+      "chunk-a4982b2078f11cc3430f57b0152ad47e",
+      "chunk-243b2e3d5f877e442569c05fa0d8f28f",
+      "chunk-1ccb801b1e3caea30df04095e211d693",
+      "chunk-d3aec46226217c4c968631602add4d39",
+      "chunk-c330b1a7fac201d121305ad5770f7eaf",
+      "chunk-6e047c846a8a0495870e5d807cea1d03",
+      "chunk-09d8ebc9bdc26f56c343b5eb5dc7b43f",
+      "chunk-87d1eb5532f12b6f54e6655859d90abe",
+      "chunk-2114f5119ec6f79daf22b14e8de6aaa2",
+      "chunk-a20b6a4f5babd19158d65be58fd53f5d",
+      "chunk-3d0a3334a19336c9ea8486a3af488fba",
+      "chunk-e3bc249ca29d56c09cb8b12e531a6808",
+      "chunk-1ccc9fbe40ac9611a3e414ffdfb1b111",
+      "chunk-84dc44485930602cae1dce2ff8801d93",
+      "chunk-4182420f385c052dc3915f782c482bd5",
+      "chunk-d1327a6716ca98823fdb4420c38dcbe9",
+      "chunk-c89d917253dddfe0044346d2d41aacd1",
+      "chunk-3dd6d3e5b2627616bba6ee68c941ac60",
+      "chunk-c8e7209213244f6d6c5627e24218830d",
+      "chunk-e0a9cf5d1b790d667eb48ea46e61d212",
+      "chunk-7c25c34bd5db5ed038dc5376e05808f1",
+      "chunk-f49f2fe611ff61e81a710945d514e610",
+      "chunk-e1d0194dfa558e1f0747638a699fcb5a",
+      "chunk-b058fa89a51aff08c052de31411b61df",
+      "chunk-c8b619dfa81c0106861fd63e391900e3",
+      "chunk-67b843c9f1b1a287252e5b35c5af98fe"
+    ],
+    "content_summary": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. \n\nAttention Is All You Need \n\nAshish Vaswani∗ Google Brain avaswani@google.c...",
+    "content_length": 22738,
+    "created_at": "2025-11-22T12:42:28.688921+00:00",
+    "updated_at": "2025-11-22T13:58:05+00:00",
+    "file_path": "attention.pdf",
+    "track_id": "insert_20251122_134228_d838427d",
+    "metadata": {
+      "processing_start_time": 1763815348,
+      "processing_end_time": 1763815383
+    },
+    "multimodal_processed": true
+  }
+}

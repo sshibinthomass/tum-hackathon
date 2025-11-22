@@ -1,0 +1,30 @@
+{
+  "doc-5ee76d292ed38516eaaa120a041915dc": {
+    "entity_names": [
+      "Transformer Model Architecture (discarded)",
+      "Author List and Acknowledgments (discarded)",
+      "NIPS 2017 Conference (conference)",
+      "Page Number 2 (discarded)",
+      "Transformer Model Architecture Diagram (image)",
+      "Reference Number 3 (discarded)",
+      "Transformer Model: Scaled Dot-Product Attention and Multi-Head Attention (image)",
+      "Scaled Dot-Product Attention (equation)",
+      "Explanation of Dot Product Magnitude (discarded)",
+      "Multi-Head Attention Reference (discarded)",
+      "Multi-Head Attention (equation)",
+      "Feed-Forward Network (FFN) Equation (equation)",
+      "Transformer Architecture: Self-Attention Layers (discarded)",
+      "Comparison of Layer Types (table)",
+      "Positional Encoding Functions (equation)",
+      "Page 6 Reference (discarded)",
+      "Learning Rate Schedule for Transformer (equation)",
+      "Page Number Reference (discarded)",
+      "Machine Translation Model Comparison (table)",
+      "GPU Performance Table (discarded)"
+    ],
+    "count": 20,
+    "update_time": 1763816166,
+    "create_time": 1763816166,
+    "_id": "doc-5ee76d292ed38516eaaa120a041915dc"
+  }
+}
