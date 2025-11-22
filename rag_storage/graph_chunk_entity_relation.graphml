@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Transformer Model Architecture (discarded)">
+      <data key="d0">Transformer Model Architecture (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This section discusses the limitations of RNNs in sequence modeling and transduction tasks and introduces the Transformer model architecture, which relies entirely on attention mechanisms to draw global dependencies between input and output sequences. The Transformer allows for more parallelization and can reach a new state-of-the-art in translation quality after being trained for as little as twelve hours on eight P100 GPUs.</data>
+      <data key="d3">chunk-6e047c846a8a0495870e5d807cea1d03</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Author List and Acknowledgments (discarded)">
+      <data key="d0">Author List and Acknowledgments (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This section lists the authors involved in the development of the Transformer model, including their affiliations and contributions to the work. It provides context about the research team behind this innovation in natural language processing.</data>
+      <data key="d3">chunk-09d8ebc9bdc26f56c343b5eb5dc7b43f</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="NIPS 2017 Conference (conference)">
+      <data key="d0">NIPS 2017 Conference (conference)</data>
+      <data key="d1">conference</data>
+      <data key="d2">The 31st Conference on Neural Information Processing Systems (NIPS 2017) was held in Long Beach, CA, USA. This conference is relevant to the paper's topic of neural networks and machine translation models.</data>
+      <data key="d3">chunk-87d1eb5532f12b6f54e6655859d90abe</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Page Number 2 (discarded)">
+      <data key="d0">Page Number 2 (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A page number (2) from a research paper or academic document, providing a reference point for readers to navigate through the content.</data>
+      <data key="d3">chunk-2114f5119ec6f79daf22b14e8de6aaa2</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Transformer Model Architecture Diagram (image)">
+      <data key="d0">Transformer Model Architecture Diagram (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">A diagrammatic representation of the Transformer model architecture, highlighting its key components and relationships. The image is part of a research paper on the Transformer model, which eschews recurrence and relies entirely on an attention mechanism to draw global dependencies between input and output.</data>
+      <data key="d3">chunk-a20b6a4f5babd19158d65be58fd53f5d</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Reference Number 3 (discarded)">
+      <data key="d0">Reference Number 3 (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A reference number indicating a specific section or equation in the surrounding text, likely corresponding to Section 3.2 on attention mechanisms.</data>
+      <data key="d3">chunk-3d0a3334a19336c9ea8486a3af488fba</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Transformer Model: Scaled Dot-Product Attention and Multi-Head Attention (image)">
+      <data key="d0">Transformer Model: Scaled Dot-Product Attention and Multi-Head Attention (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">The image shows two diagrams representing the attention mechanisms used in the Transformer model. The left diagram represents Scaled Dot-Product Attention, while the right diagram represents Multi-Head Attention.</data>
+      <data key="d3">chunk-e3bc249ca29d56c09cb8b12e531a6808</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Scaled Dot-Product Attention (equation)">
+      <data key="d0">Scaled Dot-Product Attention (equation)</data>
+      <data key="d1">equation</data>
+      <data key="d2">The scaled dot-product attention mechanism is a key component of the Transformer architecture, enabling it to attend to relevant parts of the input sequence. The equation calculates the weighted sum of values based on the compatibility function between queries and keys.</data>
+      <data key="d3">chunk-1ccc9fbe40ac9611a3e414ffdfb1b111</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Explanation of Dot Product Magnitude (discarded)">
+      <data key="d0">Explanation of Dot Product Magnitude (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This content explains why dot products can get large in magnitude, specifically in the context of scaled dot-product attention. It illustrates this using an example and highlights its relevance to understanding the Transformer model's attention mechanism.</data>
+      <data key="d3">chunk-84dc44485930602cae1dce2ff8801d93</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Multi-Head Attention Reference (discarded)">
+      <data key="d0">Multi-Head Attention Reference (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This reference provides additional information on multi-head attention, a key component of the Transformer model. It explains how multi-head attention is used in different layers of the model and its benefits.</data>
+      <data key="d3">chunk-4182420f385c052dc3915f782c482bd5</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Multi-Head Attention (equation)">
+      <data key="d0">Multi-Head Attention (equation)</data>
+      <data key="d1">equation</data>
+      <data key="d2">The Multi-Head Attention mechanism is a key component of the Transformer architecture, allowing the model to jointly attend to information from different representation subspaces at different positions. It consists of multiple attention heads, each with its own linear projection matrices and softmax function.</data>
+      <data key="d3">chunk-d1327a6716ca98823fdb4420c38dcbe9</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Feed-Forward Network (FFN) Equation (equation)">
+      <data key="d0">Feed-Forward Network (FFN) Equation (equation)</data>
+      <data key="d1">equation</data>
+      <data key="d2">The FFN equation represents a critical component of the Transformer model, enabling efficient parallelization and capturing complex interactions between positions in sequential data.</data>
+      <data key="d3">chunk-c89d917253dddfe0044346d2d41aacd1</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Transformer Architecture: Self-Attention Layers (discarded)">
+      <data key="d0">Transformer Architecture: Self-Attention Layers (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This section discusses the benefits and limitations of self-attention layers in sequence transduction tasks, including their computational complexity, parallelization capabilities, and ability to learn long-range dependencies.</data>
+      <data key="d3">chunk-3dd6d3e5b2627616bba6ee68c941ac60</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Comparison of Layer Types (table)">
+      <data key="d0">Comparison of Layer Types (table)</data>
+      <data key="d1">table</data>
+      <data key="d2">This table compares the computational complexity, sequential operations, and maximum path length of different neural network layer types (Self-Attention, Recurrent, Convolutional, Self-Attention restricted) to inform the design of efficient sequence transduction models.</data>
+      <data key="d3">chunk-c8e7209213244f6d6c5627e24218830d</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Positional Encoding Functions (equation)">
+      <data key="d0">Positional Encoding Functions (equation)</data>
+      <data key="d1">equation</data>
+      <data key="d2">The positional encoding functions are used to inject information about the relative or absolute position of tokens in a sequence. They are sinusoidal and cosine-based, with different frequencies for each dimension.</data>
+      <data key="d3">chunk-e0a9cf5d1b790d667eb48ea46e61d212</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Page 6 Reference (discarded)">
+      <data key="d0">Page 6 Reference (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A reference or footnote from Page 6 discussing self-attention mechanisms, likely related to the advantages of self-attention layers over recurrent and convolutional layers.</data>
+      <data key="d3">chunk-7c25c34bd5db5ed038dc5376e05808f1</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Learning Rate Schedule for Transformer (equation)">
+      <data key="d0">Learning Rate Schedule for Transformer (equation)</data>
+      <data key="d1">equation</data>
+      <data key="d2">The equation defines a learning rate schedule that balances exploration and exploitation in the early stages of training, allowing the model to adapt quickly to new information while avoiding overfitting.</data>
+      <data key="d3">chunk-f49f2fe611ff61e81a710945d514e610</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Page Number Reference (discarded)">
+      <data key="d0">Page Number Reference (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A page number reference likely indicating a continuation of the discussion on machine translation models, possibly referring back to Table 2 for specific results and comparisons.</data>
+      <data key="d3">chunk-67b843c9f1b1a287252e5b35c5af98fe</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="Machine Translation Model Comparison (table)">
+      <data key="d0">Machine Translation Model Comparison (table)</data>
+      <data key="d1">table</data>
+      <data key="d2">This table compares different machine translation models, including their BLEU scores and training costs. The Transformer model outperforms previous state-of-the-art models on both English-to-German and English-to-French translation tasks at a fraction of the training cost.</data>
+      <data key="d3">chunk-b058fa89a51aff08c052de31411b61df</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+    <node id="GPU Performance Table (discarded)">
+      <data key="d0">GPU Performance Table (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A reference table providing estimated floating-point operations per second (TFLOPS) for different types of GPUs used in training, likely used to support the discussion on computational resources and model training costs.</data>
+      <data key="d3">chunk-c8b619dfa81c0106861fd63e391900e3</data>
+      <data key="d4">attention.pdf</data>
+      <data key="d5">1763816166</data>
+    </node>
+  </graph>
+</graphml>
