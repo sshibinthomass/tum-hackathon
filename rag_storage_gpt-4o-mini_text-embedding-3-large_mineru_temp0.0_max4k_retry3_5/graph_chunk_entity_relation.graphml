@@ -1,0 +1,661 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Person">
+  <data key="d0">Person</data>
+  <data key="d1">none</data>
+  <data key="d2">None&lt;SEP&gt;None</data>
+  <data key="d3">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841260</data>
+  <data key="d6"></data>
+</node>
+<node id="Organization">
+  <data key="d0">Organization</data>
+  <data key="d1">none</data>
+  <data key="d2">None&lt;SEP&gt;None</data>
+  <data key="d3">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841260</data>
+  <data key="d6"></data>
+</node>
+<node id="John Doe">
+  <data key="d0">John Doe</data>
+  <data key="d3">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-d3aec46226217c4c968631602add4d39&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d2">None</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841195</data>
+  <data key="d6"></data>
+</node>
+<node id="works_at">
+  <data key="d0">works_at</data>
+  <data key="d3">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-d3aec46226217c4c968631602add4d39&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d2">None</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841196</data>
+  <data key="d6"></data>
+</node>
+<node id="Jane Smith">
+  <data key="d0">Jane Smith</data>
+  <data key="d3">chunk-d3aec46226217c4c968631602add4d39</data>
+  <data key="d2">2021</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841197</data>
+  <data key="d6"></data>
+</node>
+<node id="is_a">
+  <data key="d0">is_a</data>
+  <data key="d3">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d2">None</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841197</data>
+  <data key="d6"></data>
+</node>
+<node id="married">
+  <data key="d0">married</data>
+  <data key="d3">chunk-d3aec46226217c4c968631602add4d39</data>
+  <data key="d2">2020</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841198</data>
+  <data key="d6"></data>
+</node>
+<node id="Empty Placeholder (discarded)">
+  <data key="d0">Empty Placeholder (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This discarded content is an empty placeholder with no textual information, rendering it irrelevant to the surrounding discussion on the Transformer model and its significance in sequence transduction tasks.</data>
+  <data key="d3">chunk-11c0679d2719d6b310c4d2d2728d8d4e</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Acknowledgment of Contributions to Transformer Model (discarded)">
+  <data key="d0">Acknowledgment of Contributions to Transformer Model (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This content acknowledges the contributions of various authors to the Transformer model, detailing their specific roles and tasks. It highlights the collaborative effort behind the research, connecting to the broader context of the paper by emphasizing teamwork in achieving advancements in AI.</data>
+  <data key="d3">chunk-d3daca300f1d49589e7abbe3178fcd14</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="NIPS 2017 Conference Citation (discarded)">
+  <data key="d0">NIPS 2017 Conference Citation (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This content references the 31st Conference on Neural Information Processing Systems (NIPS 2017), providing context for the research on the Transformer model. It situates the work within a significant academic event, enhancing its credibility and relevance in the field.</data>
+  <data key="d3">chunk-2373c7be2f11202a91df33cecce6d9e7</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Fragment of Section Number (discarded)">
+  <data key="d0">Fragment of Section Number (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This discarded content is a fragment ('2') likely representing a section number or heading. It lacks context and does not provide any meaningful information related to the surrounding discussion on the Transformer model and its architecture.</data>
+  <data key="d3">chunk-62013416ef5c5cee6738f554a8902b7f</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Transformer Model Architecture Diagram (image)">
+  <data key="d0">Transformer Model Architecture Diagram (image)</data>
+  <data key="d1">image</data>
+  <data key="d2">This diagram illustrates the Transformer model's architecture, highlighting its encoder-decoder structure with multi-head attention and feed-forward layers. It visually supports the text's explanation of the Transformer's reliance on self-attention for efficient sequence modeling.</data>
+  <data key="d3">chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Section Header Fragment (discarded)">
+  <data key="d0">Section Header Fragment (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a single numeral '3', likely indicating a section header. It lacks context and does not contribute to the surrounding discussion on neural networks and attention mechanisms.</data>
+  <data key="d3">chunk-a256267523230f31034443d3ca717422</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Attention Mechanisms in Transformers (image)">
+  <data key="d0">Attention Mechanisms in Transformers (image)</data>
+  <data key="d1">image</data>
+  <data key="d2">The image illustrates the Scaled Dot-Product Attention and Multi-Head Attention mechanisms used in Transformer models. It highlights the modular and parallel processing capabilities, aligning with the detailed explanation of attention mechanisms in the surrounding text.</data>
+  <data key="d3">chunk-27baa1c784722bae36ce3229ffcade1a</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Scaled Dot-Product Attention (equation)">
+  <data key="d0">Scaled Dot-Product Attention (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">This equation defines the scaled dot-product attention mechanism, which computes a weighted sum of values based on the compatibility of queries and keys, essential for the Transformer model's ability to process sequences effectively.</data>
+  <data key="d3">chunk-89831d05bb14ee9d929c9d60e4a44635</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Dot Product Variance in Attention Mechanism (discarded)">
+  <data key="d0">Dot Product Variance in Attention Mechanism (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This content illustrates the variance of the dot product of query and key vectors in the attention mechanism, explaining why large values can occur and the need for scaling. It connects to the broader discussion on attention mechanisms in the Transformer model, emphasizing the importance of managing dot product magnitudes for effective training.</data>
+  <data key="d3">chunk-1365f2f56667b5c1a67a2f498774ef87</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Page Number or Section Identifier (discarded)">
+  <data key="d0">Page Number or Section Identifier (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a single character '4', likely indicating a page number or section. It lacks substantive information and does not contribute to the understanding of the surrounding content on the Transformer model's architecture.</data>
+  <data key="d3">chunk-f2afb52f17f77835b876c28dfcbc4e4e</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Multi-Head Attention Equation (equation)">
+  <data key="d0">Multi-Head Attention Equation (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">This equation defines the Multi-Head Attention mechanism in Transformer models, enabling the model to jointly attend to information from different representation subspaces, thereby improving its ability to capture complex dependencies in sequence data.</data>
+  <data key="d3">chunk-b29928fafd4b36b14db3c1808710d46b</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Feed-Forward Neural Network Layer (equation)">
+  <data key="d0">Feed-Forward Neural Network Layer (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">This equation defines a feed-forward neural network layer, crucial for transforming input data through linear and non-linear operations, enhancing the model's ability to learn complex patterns in tasks like sequence transduction.</data>
+  <data key="d3">chunk-ceeec139be6fabfa98d8121bfe789a6f</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Fragment of Page 4 (discarded)">
+  <data key="d0">Fragment of Page 4 (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a single character '5', which lacks context and does not contribute to the surrounding discussion on the Transformer model's architecture and mechanisms.</data>
+  <data key="d3">chunk-18ee01b1203023a3acab2756d7eb6ae9</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Comparative Analysis of Layer Types in Sequence Models (table)">
+  <data key="d0">Comparative Analysis of Layer Types in Sequence Models (table)</data>
+  <data key="d1">table</data>
+  <data key="d2">This table compares the computational complexity, sequential operations, and maximum path lengths of self-attention, recurrent, and convolutional layers. It illustrates the efficiency of self-attention in handling long-range dependencies, supporting the surrounding content's focus on the advantages of self-attention in sequence transduction tasks.</data>
+  <data key="d3">chunk-4e28d338d86871fa791c09446f219838</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Positional Encoding Formula (equation)">
+  <data key="d0">Positional Encoding Formula (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">This equation defines the positional encodings used in the Transformer model, allowing the model to incorporate the order of tokens in sequences, which is essential for tasks like translation and text processing.</data>
+  <data key="d3">chunk-d0a04ac1a806619e1fb130a04019990e</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Page Number Marker (discarded)">
+  <data key="d0">Page Number Marker (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a page number '6' that serves as a marker but does not contain any relevant information or context related to the surrounding discussion on attention mechanisms in the Transformer model.</data>
+  <data key="d3">chunk-ab034a62de8d31073087b60f3cd63669</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Adaptive Learning Rate Equation (equation)">
+  <data key="d0">Adaptive Learning Rate Equation (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">This equation defines the adaptive learning rate for training transformer models, balancing the model's dimensionality and training step progression to optimize learning efficiency and stability.</data>
+  <data key="d3">chunk-b535ab9523f20d7f6134fa611239aa66</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Section Number Placeholder (discarded)">
+  <data key="d0">Section Number Placeholder (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a single character '7', likely intended as a section marker, but it lacks any meaningful information or context, rendering it irrelevant to the surrounding discussion on training and results.</data>
+  <data key="d3">chunk-8c3e3c2c262f3365f233d4d72dea53e0</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Comparison of Machine Translation Models (table)">
+  <data key="d0">Comparison of Machine Translation Models (table)</data>
+  <data key="d1">table</data>
+  <data key="d2">This table compares BLEU scores and training costs of various machine translation models, highlighting the superior performance and efficiency of the Transformer models over previous state-of-the-art architectures in English-to-German and English-to-French translation tasks.</data>
+  <data key="d3">chunk-f7c0b03bbe7026f7c01f629104201ab0</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="GPU Performance Metrics (discarded)">
+  <data key="d0">GPU Performance Metrics (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">This content provides TFLOPS values for various GPU models used in training, which supports the discussion on computational resources in the training section. It highlights the performance capabilities of the hardware, relevant for understanding the training efficiency of the models.</data>
+  <data key="d3">chunk-0413d26976b7d926ae70c61a4db39109</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<node id="Single Character Discarded Content (discarded)">
+  <data key="d0">Single Character Discarded Content (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">The content is a single character '8' that does not contribute to the surrounding discussion on machine translation models, training data, or results, making it irrelevant and uninformative.</data>
+  <data key="d3">chunk-c1c130e2663ca1584426dd54f43838c3</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763841259</data>
+</node>
+<edge source="Person" target="Empty Placeholder (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Empty Placeholder (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-11c0679d2719d6b310c4d2d2728d8d4e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841260</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Fragment of Page 4 (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Fragment of Page 4 (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-18ee01b1203023a3acab2756d7eb6ae9</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841261</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Fragment of Section Number (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Fragment of Section Number (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-62013416ef5c5cee6738f554a8902b7f</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841261</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Positional Encoding Formula (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Positional Encoding Formula (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d0a04ac1a806619e1fb130a04019990e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Acknowledgment of Contributions to Transformer Model (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Acknowledgment of Contributions to Transformer Model (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d3daca300f1d49589e7abbe3178fcd14</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Multi-Head Attention Equation (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Multi-Head Attention Equation (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-b29928fafd4b36b14db3c1808710d46b</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="NIPS 2017 Conference Citation (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to NIPS 2017 Conference Citation (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-2373c7be2f11202a91df33cecce6d9e7</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841263</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Adaptive Learning Rate Equation (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Adaptive Learning Rate Equation (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-b535ab9523f20d7f6134fa611239aa66</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841263</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Feed-Forward Neural Network Layer (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Feed-Forward Neural Network Layer (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ceeec139be6fabfa98d8121bfe789a6f</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841263</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Page Number Marker (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Page Number Marker (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ab034a62de8d31073087b60f3cd63669</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Section Number Placeholder (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Section Number Placeholder (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-8c3e3c2c262f3365f233d4d72dea53e0</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Dot Product Variance in Attention Mechanism (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Dot Product Variance in Attention Mechanism (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-1365f2f56667b5c1a67a2f498774ef87</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Comparison of Machine Translation Models (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Comparison of Machine Translation Models (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-f7c0b03bbe7026f7c01f629104201ab0</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Comparative Analysis of Layer Types in Sequence Models (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Comparative Analysis of Layer Types in Sequence Models (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-4e28d338d86871fa791c09446f219838</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Scaled Dot-Product Attention (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Scaled Dot-Product Attention (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-89831d05bb14ee9d929c9d60e4a44635</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="GPU Performance Metrics (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to GPU Performance Metrics (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-0413d26976b7d926ae70c61a4db39109</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841266</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Page Number or Section Identifier (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Page Number or Section Identifier (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-f2afb52f17f77835b876c28dfcbc4e4e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841266</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Single Character Discarded Content (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Single Character Discarded Content (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-c1c130e2663ca1584426dd54f43838c3</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Section Header Fragment (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Section Header Fragment (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-a256267523230f31034443d3ca717422</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Attention Mechanisms in Transformers (image)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Attention Mechanisms in Transformers (image)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-27baa1c784722bae36ce3229ffcade1a</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Person" target="Transformer Model Architecture Diagram (image)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Person belongs to Transformer Model Architecture Diagram (image)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841268</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Empty Placeholder (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Empty Placeholder (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-11c0679d2719d6b310c4d2d2728d8d4e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841261</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Positional Encoding Formula (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Positional Encoding Formula (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d0a04ac1a806619e1fb130a04019990e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841261</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Fragment of Page 4 (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Fragment of Page 4 (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-18ee01b1203023a3acab2756d7eb6ae9</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Fragment of Section Number (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Fragment of Section Number (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-62013416ef5c5cee6738f554a8902b7f</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Acknowledgment of Contributions to Transformer Model (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Acknowledgment of Contributions to Transformer Model (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-d3daca300f1d49589e7abbe3178fcd14</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841262</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Multi-Head Attention Equation (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Multi-Head Attention Equation (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-b29928fafd4b36b14db3c1808710d46b</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841263</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Page Number Marker (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Page Number Marker (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ab034a62de8d31073087b60f3cd63669</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="NIPS 2017 Conference Citation (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to NIPS 2017 Conference Citation (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-2373c7be2f11202a91df33cecce6d9e7</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Adaptive Learning Rate Equation (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Adaptive Learning Rate Equation (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-b535ab9523f20d7f6134fa611239aa66</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841264</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Section Number Placeholder (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Section Number Placeholder (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-8c3e3c2c262f3365f233d4d72dea53e0</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Feed-Forward Neural Network Layer (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Feed-Forward Neural Network Layer (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-ceeec139be6fabfa98d8121bfe789a6f</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Dot Product Variance in Attention Mechanism (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Dot Product Variance in Attention Mechanism (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-1365f2f56667b5c1a67a2f498774ef87</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Comparison of Machine Translation Models (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Comparison of Machine Translation Models (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-f7c0b03bbe7026f7c01f629104201ab0</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841266</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Scaled Dot-Product Attention (equation)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Scaled Dot-Product Attention (equation)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-89831d05bb14ee9d929c9d60e4a44635</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841266</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Comparative Analysis of Layer Types in Sequence Models (table)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Comparative Analysis of Layer Types in Sequence Models (table)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-4e28d338d86871fa791c09446f219838</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841266</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Page Number or Section Identifier (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Page Number or Section Identifier (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-f2afb52f17f77835b876c28dfcbc4e4e</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Single Character Discarded Content (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Single Character Discarded Content (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-c1c130e2663ca1584426dd54f43838c3</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Section Header Fragment (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Section Header Fragment (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-a256267523230f31034443d3ca717422</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841267</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="GPU Performance Metrics (discarded)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to GPU Performance Metrics (discarded)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-0413d26976b7d926ae70c61a4db39109</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841268</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Transformer Model Architecture Diagram (image)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Transformer Model Architecture Diagram (image)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841268</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Organization" target="Attention Mechanisms in Transformers (image)">
+  <data key="d7">10.0</data>
+  <data key="d8">Entity Organization belongs to Attention Mechanisms in Transformers (image)</data>
+  <data key="d9">belongs_to,contained_in,part_of</data>
+  <data key="d10">chunk-27baa1c784722bae36ce3229ffcade1a</data>
+  <data key="d11">/Users/qtf4195/tum-hackathon/data/attention.pdf</data>
+  <data key="d12">1763841268</data>
+  <data key="d13"></data>
+</edge>
+<edge source="John Doe" target="works_at">
+  <data key="d7">23.0</data>
+  <data key="d8">None&lt;SEP&gt;None</data>
+  <data key="d9">Acme Corporation</data>
+  <data key="d10">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d11">attention.pdf</data>
+  <data key="d12">1763841260</data>
+  <data key="d13"></data>
+</edge>
+<edge source="John Doe" target="is_a">
+  <data key="d7">23.0</data>
+  <data key="d8">None&lt;SEP&gt;None</data>
+  <data key="d9">Employee</data>
+  <data key="d10">chunk-243b2e3d5f877e442569c05fa0d8f28f&lt;SEP&gt;chunk-a4982b2078f11cc3430f57b0152ad47e&lt;SEP&gt;chunk-11c0679d2719d6b310c4d2d2728d8d4e&lt;SEP&gt;chunk-18ee01b1203023a3acab2756d7eb6ae9&lt;SEP&gt;chunk-62013416ef5c5cee6738f554a8902b7f&lt;SEP&gt;chunk-d0a04ac1a806619e1fb130a04019990e&lt;SEP&gt;chunk-d3daca300f1d49589e7abbe3178fcd14&lt;SEP&gt;chunk-b29928fafd4b36b14db3c1808710d46b&lt;SEP&gt;chunk-2373c7be2f11202a91df33cecce6d9e7&lt;SEP&gt;chunk-b535ab9523f20d7f6134fa611239aa66&lt;SEP&gt;chunk-ceeec139be6fabfa98d8121bfe789a6f&lt;SEP&gt;chunk-ab034a62de8d31073087b60f3cd63669&lt;SEP&gt;chunk-8c3e3c2c262f3365f233d4d72dea53e0&lt;SEP&gt;chunk-1365f2f56667b5c1a67a2f498774ef87&lt;SEP&gt;chunk-f7c0b03bbe7026f7c01f629104201ab0&lt;SEP&gt;chunk-4e28d338d86871fa791c09446f219838&lt;SEP&gt;chunk-89831d05bb14ee9d929c9d60e4a44635&lt;SEP&gt;chunk-0413d26976b7d926ae70c61a4db39109&lt;SEP&gt;chunk-f2afb52f17f77835b876c28dfcbc4e4e&lt;SEP&gt;chunk-c1c130e2663ca1584426dd54f43838c3&lt;SEP&gt;chunk-a256267523230f31034443d3ca717422&lt;SEP&gt;chunk-27baa1c784722bae36ce3229ffcade1a&lt;SEP&gt;chunk-092c273bae013ebc89cad8ff5987f7ca</data>
+  <data key="d11">attention.pdf</data>
+  <data key="d12">1763841261</data>
+  <data key="d13"></data>
+</edge>
+<edge source="John Doe" target="married">
+  <data key="d7">2020.0</data>
+  <data key="d8">2020</data>
+  <data key="d9">Jane Smith</data>
+  <data key="d10">chunk-d3aec46226217c4c968631602add4d39</data>
+  <data key="d11">attention.pdf</data>
+  <data key="d12">1763841198</data>
+  <data key="d13"></data>
+</edge>
+<edge source="works_at" target="Jane Smith">
+  <data key="d7">2021.0</data>
+  <data key="d8">2021</data>
+  <data key="d9">Tech Innovations</data>
+  <data key="d10">chunk-d3aec46226217c4c968631602add4d39</data>
+  <data key="d11">attention.pdf</data>
+  <data key="d12">1763841197</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

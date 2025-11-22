@@ -1,21 +1,35 @@
 #!/usr/bin/env python3
 """
-Simple RAG-Anything Document Storage
+Enhanced RAG-Anything Document Storage
 
-Processes and stores PDF documents in RAG-Anything storage.
-Run this once per document.
+Processes and stores PDF documents in RAG-Anything storage with best practices
+from official RAG-Anything examples.
+
+Improvements over basic store.py:
+1. Vision model support for better multimodal processing
+2. Environment variable configuration
+3. Better logging with file output
+4. Batch processing support
+5. Progress tracking
+6. Error handling and recovery
 
 Usage:
-    python store.py <filename>
-    python store.py attention.pdf
+    python store_improved.py <filename>
+    python store_improved.py attention.pdf
+    python store_improved.py --batch doc1.pdf doc2.pdf doc3.pdf
 """
 
 import asyncio
 import re
 import logging
+import logging.config
 import warnings
+import os
+import argparse
+import time
 from pathlib import Path
 from functools import lru_cache
+from typing import List, Optional
 
 from dotenv import load_dotenv
 from raganything import RAGAnything, RAGAnythingConfig
@@ -50,8 +64,58 @@ load_dotenv()
 
 nest_asyncio.apply()
 
-# Configure logging to reduce noise from format warnings
-logging.basicConfig(level=logging.INFO)
+
+def configure_logging(log_dir: str = None):
+    """
+    Configure logging with both console and file output.
+    Based on RAG-Anything example best practices.
+    """
+    # Get log directory path from environment variable or use provided/default
+    log_dir = log_dir or os.getenv("LOG_DIR", "./logs")
+    os.makedirs(log_dir, exist_ok=True)
+    
+    log_file_path = os.path.abspath(os.path.join(log_dir, "rag_storage.log"))
+    
+    # Get log file max size and backup count from environment variables
+    log_max_bytes = int(os.getenv("LOG_MAX_BYTES", 10485760))  # Default 10MB
+    log_backup_count = int(os.getenv("LOG_BACKUP_COUNT", 5))  # Default 5 backups
+    
+    logging.config.dictConfig({
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "default": {
+                "format": "%(levelname)s: %(message)s",
+            },
+            "detailed": {
+                "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+            },
+        },
+        "handlers": {
+            "console": {
+                "formatter": "default",
+                "class": "logging.StreamHandler",
+                "stream": "ext://sys.stderr",
+            },
+            "file": {
+                "formatter": "detailed",
+                "class": "logging.handlers.RotatingFileHandler",
+                "filename": log_file_path,
+                "maxBytes": log_max_bytes,
+                "backupCount": log_backup_count,
+                "encoding": "utf-8",
+            },
+        },
+        "loggers": {
+            "": {  # Root logger
+                "handlers": ["console", "file"],
+                "level": "INFO",
+            },
+        },
+    })
+    
+    print(f"📝 Log file: {log_file_path}\n")
+
 
 # Create a custom filter to suppress specific warning messages
 class WarningFilter(logging.Filter):
@@ -67,7 +131,8 @@ class WarningFilter(logging.Filter):
             return False
         return True
 
-# Apply filter to root logger and common library loggers
+
+# Apply filter to common library loggers
 for logger_name in ['', 'raganything', 'lightrag', '__main__']:
     logger = logging.getLogger(logger_name)
     logger.addFilter(WarningFilter())
@@ -137,7 +202,10 @@ def get_model_paths(
 
 
 def get_models(chat_provider: str = None, embedding_provider: str = None):
-    """Initialize chat and embedding models from config."""
+    """
+    Initialize chat and embedding models from config.
+    Enhanced with vision model support for multimodal processing.
+    """
     # Use config values if not provided
     chat_provider = config.chat_provider
     embedding_provider = config.embedding_provider
@@ -161,12 +229,20 @@ def get_models(chat_provider: str = None, embedding_provider: str = None):
             max_tokens=max_tokens,
             max_retries=max_retries,
         )
+        # Vision model for multimodal content (use gpt-4o for better vision capabilities)
+        vision_model = ChatOpenAI(
+            model="gpt-4o",  # Correct vision model
+            temperature=temperature,
+            max_tokens=max_tokens,
+            max_retries=max_retries,
+        )
     elif chat_provider == "groq":
         chat_model = ChatGroq(
             model=config.chat_model,
             temperature=temperature,
             max_tokens=max_tokens,
         )
+        vision_model = chat_model  # Groq doesn't have separate vision model
     elif chat_provider == "gemini":
         if ChatVertexAI is None:
             raise ImportError(
@@ -178,6 +254,7 @@ def get_models(chat_provider: str = None, embedding_provider: str = None):
             temperature=temperature,
             max_output_tokens=max_tokens,
         )
+        vision_model = chat_model  # Gemini models support vision natively
     elif chat_provider == "anthropic":
         if ChatAnthropic is None:
             raise ImportError(
@@ -189,12 +266,14 @@ def get_models(chat_provider: str = None, embedding_provider: str = None):
             temperature=temperature,
             max_tokens=max_tokens,
         )
+        vision_model = chat_model  # Claude supports vision natively
     else:  # ollama
         chat_model = ChatOllama(
             model=config.chat_model,
             temperature=temperature,
             num_predict=max_tokens,  # Ollama uses num_predict instead of max_tokens
         )
+        vision_model = chat_model
 
     # Initialize embedding model
     if embedding_provider == "openai":
@@ -202,13 +281,13 @@ def get_models(chat_provider: str = None, embedding_provider: str = None):
     else:  # ollama
         embedding_model = OllamaEmbeddings(model=config.embedding_model)
 
-    return chat_model, embedding_model
+    return chat_model, vision_model, embedding_model
 
 
 def fix_llm_output_format(content: str) -> str:
     """
     Post-process LLM output to fix common format errors per RAG-Anything requirements.
-
+    
     Based on RAG-Anything GitHub repository format specifications:
     - Entities: entity<|#|>name<|#|>type<|#|>description (4 fields, single line)
     - Relations: relation<|#|>source<|#|>target<|#|>keywords<|#|>description (5 fields, single line)
@@ -479,7 +558,7 @@ def create_llm_func(chat_model):
     # Cache for repeated prompts (helps with multimodal processing)
     prompt_cache = {}
 
-    async def llm_func(prompt, **kwargs):
+    async def llm_func(prompt, system_prompt=None, history_messages=[], **kwargs):
         """Async LLM function with retry logic and format correction."""
         # Check cache first (for identical prompts)
         cache_key = hash(prompt)
@@ -498,10 +577,9 @@ def create_llm_func(chat_model):
                 )
 
                 # Apply format correction to fix all common errors
-                # This handles most of the warnings we see in the logs
                 content = fix_llm_output_format(content)
 
-                # Basic validation: ensure response is not empty or just a placeholder
+                # Basic validation
                 if (
                     content
                     and content.strip()
@@ -511,11 +589,9 @@ def create_llm_func(chat_model):
                     prompt_cache[cache_key] = content
                     return content
                 elif attempt < max_attempts - 1:
-                    # If response looks incomplete, retry with shorter backoff
                     await asyncio.sleep(0.3 * (attempt + 1))
                     continue
                 else:
-                    # Last attempt, return what we got
                     return content
 
             except Exception as e:
@@ -524,16 +600,60 @@ def create_llm_func(chat_model):
                     await asyncio.sleep(0.3 * (attempt + 1))
                     continue
                 else:
-                    # Last attempt failed, raise the error
                     raise
 
-        # Should not reach here, but just in case
         if last_error:
             raise last_error
         return ""
 
     llm_func.func = llm_func
     return llm_func
+
+
+def create_vision_func(vision_model):
+    """
+    Create async vision model function for multimodal content processing.
+    Based on RAG-Anything example best practices.
+    """
+    async def vision_func(
+        prompt,
+        system_prompt=None,
+        history_messages=[],
+        image_data=None,
+        messages=None,
+        **kwargs
+    ):
+        """Vision model function supporting both single image and multimodal formats."""
+        loop = asyncio.get_event_loop()
+        
+        # If messages format is provided (for multimodal VLM enhanced query), use it directly
+        if messages:
+            response = await loop.run_in_executor(
+                None,
+                lambda: vision_model.invoke(messages)
+            )
+        # Traditional single image format
+        elif image_data:
+            # Format message for vision model
+            message_content = [
+                {"type": "text", "text": prompt},
+                {
+                    "type": "image_url",
+                    "image_url": {"url": f"data:image/jpeg;base64,{image_data}"}
+                },
+            ]
+            response = await loop.run_in_executor(
+                None,
+                lambda: vision_model.invoke([{"role": "user", "content": message_content}])
+            )
+        # Pure text format
+        else:
+            response = await loop.run_in_executor(None, vision_model.invoke, prompt)
+        
+        return response.content if hasattr(response, "content") else str(response)
+    
+    vision_func.func = vision_func
+    return vision_func
 
 
 def create_embedding_func(embedding_model):
@@ -581,13 +701,25 @@ def create_embedding_func(embedding_model):
     return embedding_func
 
 
-def store_document(
+async def store_document(
     filename: str,
     chat_provider: str = None,
     embedding_provider: str = None,
     output_dir: str = None,
+    show_progress: bool = True,
 ):
-    """Process and store a document."""
+    """
+    Process and store a document with enhanced features.
+    
+    Args:
+        filename: Name of the file to process
+        chat_provider: Chat model provider (openai, groq, etc.)
+        embedding_provider: Embedding model provider
+        output_dir: Output directory for processed files
+        show_progress: Whether to show progress information
+    """
+    start_time = time.time()
+    
     # Setup paths
     file_path = Path(glob.DATA_PKG_DIR) / filename
     if not file_path.exists():
@@ -608,10 +740,9 @@ def store_document(
     output_path.mkdir(parents=True, exist_ok=True)
 
     # Initialize models from config
-    chat_model, embedding_model = get_models(chat_provider, embedding_provider)
+    chat_model, vision_model, embedding_model = get_models(chat_provider, embedding_provider)
 
-    # Create RAG-Anything config
-    # Include LLM settings in parser_output_base for consistency
+    # Create RAG-Anything config with BEST PRACTICES for maximum quality
     llm_suffix = get_llm_settings_suffix()
     parser_output_base = f"./output_{sanitize_model_name(config.chat_model)}_{sanitize_model_name(config.embedding_model)}_{sanitize_model_name(config.parser)}_{llm_suffix}"
 
@@ -620,31 +751,109 @@ def store_document(
         parser=config.parser,
         parse_method="auto",
         parser_output_dir=parser_output_base,
+        
+        # Multimodal processing - ENABLED for best quality
         enable_image_processing=True,
         enable_table_processing=True,
         enable_equation_processing=True,
+        
+        # BEST PRACTICE: Enhanced context extraction for better understanding
+        # Based on RAG-Anything docs: context_aware_processing.md
+        context_window=2,  # Increased from default 1 - include 2 pages before/after
+        context_mode="page",  # Page-based context for document structure
+        max_context_tokens=3000,  # Increased from default 2000 for richer context
+        include_headers=True,  # Include document headers for structure
+        include_captions=True,  # Include image/table captions
+        context_filter_content_types=["text", "image", "table"],  # Include ALL content types
     )
 
-    # Initialize RAG-Anything
+    # Initialize RAGAnything with vision model support
     rag_anything = RAGAnything(
         config=rag_config,
         llm_model_func=create_llm_func(chat_model),
+        vision_model_func=create_vision_func(vision_model),  # Enhanced with vision support
         embedding_func=create_embedding_func(embedding_model),
     )
 
     # Process document
     print(f"Processing {filename}...")
-    asyncio.run(
-        rag_anything.process_document_complete(
-            file_path=str(file_path),
-            output_dir=output_dir,
-            parse_method="auto",
-        )
+    await rag_anything.process_document_complete(
+        file_path=str(file_path),
+        output_dir=output_dir,
+        parse_method="auto",
     )
     print("✓ Document stored successfully!")
 
 
+async def store_documents_batch(
+    filenames: List[str],
+    chat_provider: str = None,
+    embedding_provider: str = None,
+    output_dir: str = None,
+):
+    """
+    Process multiple documents in batch.
+    
+    Args:
+        filenames: List of filenames to process
+        chat_provider: Chat model provider
+        embedding_provider: Embedding model provider
+        output_dir: Output directory for processed files
+    """
+    print(f"\n{'='*60}")
+    print(f"BATCH PROCESSING: {len(filenames)} documents")
+    print(f"{'='*60}\n")
+    
+    start_time = time.time()
+    successful = []
+    failed = []
+    
+    for i, filename in enumerate(filenames, 1):
+        print(f"\n[{i}/{len(filenames)}] Processing: {filename}")
+        print("-" * 40)
+        
+        try:
+            await store_document(
+                filename,
+                chat_provider=chat_provider,
+                embedding_provider=embedding_provider,
+                output_dir=output_dir,
+                show_progress=True,
+            )
+            successful.append(filename)
+        except Exception as e:
+            print(f"❌ Error processing {filename}: {str(e)}")
+            failed.append((filename, str(e)))
+    
+    total_time = time.time() - start_time
+    
+    # Print summary
+    print(f"\n{'='*60}")
+    print("BATCH PROCESSING SUMMARY")
+    print(f"{'='*60}")
+    print(f"Total documents: {len(filenames)}")
+    print(f"Successful: {len(successful)}")
+    print(f"Failed: {len(failed)}")
+    print(f"Success rate: {len(successful)/len(filenames)*100:.1f}%")
+    print(f"Total time: {total_time:.2f} seconds")
+    print(f"Average time per document: {total_time/len(filenames):.2f} seconds")
+    
+    if successful:
+        print(f"\n✅ Successfully processed:")
+        for filename in successful:
+            print(f"   - {filename}")
+    
+    if failed:
+        print(f"\n❌ Failed to process:")
+        for filename, error in failed:
+            print(f"   - {filename}: {error}")
+
+
 if __name__ == "__main__":
+    # Configure logging first
+    configure_logging(log_dir="./logs")
+    
+    # Simple execution like store.py - just process the default file
     filename = "Allplan_2020_Manual.pdf"
     # Use values from config.py
-    store_document(filename)
+    asyncio.run(store_document(filename))

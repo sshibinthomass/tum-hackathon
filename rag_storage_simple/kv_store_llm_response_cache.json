@@ -602,5 +602,89 @@
     "create_time": 1763828127,
     "update_time": 1763828127,
     "_id": "mix:query:b9e8c25705d80ba0d078fc5146cbb322"
+  },
+  "mix:keywords:4523f73f22b7eb031f22cfe9ce1725b3": {
+    "return": "{\"high_level_keywords\": [\"Authors\", \"Paper\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Who are the authors of the paper?",
+    "queryparam": {
+      "mode": "mix",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1763834145,
+    "update_time": 1763834145,
+    "_id": "mix:keywords:4523f73f22b7eb031f22cfe9ce1725b3"
+  },
+  "mix:query:1eb062ae110cafb129e8d2bc00b973ee": {
+    "return": "I'm sorry, but I cannot provide the authors of a specific paper without more information. Could you please provide me with the title or the authors' names of the paper you are referring to?",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "Who are the authors of the paper?",
+    "queryparam": {
+      "mode": "mix",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Authors, Paper",
+      "ll_keywords": "",
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1763834146,
+    "update_time": 1763834146,
+    "_id": "mix:query:1eb062ae110cafb129e8d2bc00b973ee"
+  },
+  "mix:keywords:47614eaa943b743f3dd1a1058a4a89b7": {
+    "return": "{\"high_level_keywords\": [\"Authors of the paper Attention is all you need\"], \"low_level_keywords\": []}",
+    "cache_type": "keywords",
+    "chunk_id": null,
+    "original_prompt": "Who are the authors of the paper Attention is all you need?",
+    "queryparam": {
+      "mode": "mix",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1763834172,
+    "update_time": 1763834172,
+    "_id": "mix:keywords:47614eaa943b743f3dd1a1058a4a89b7"
+  },
+  "mix:query:edfc8192542505630a62550927f609b0": {
+    "return": "The authors of the paper \"Attention is all you need\" are Yoon Kim, Noam Shazeer, Nal Kalchbrenner, Llion Jones, Dzmitry T. Harp, and Wei Li.",
+    "cache_type": "query",
+    "chunk_id": null,
+    "original_prompt": "Who are the authors of the paper Attention is all you need?",
+    "queryparam": {
+      "mode": "mix",
+      "response_type": "Multiple Paragraphs",
+      "top_k": 40,
+      "chunk_top_k": 20,
+      "max_entity_tokens": 6000,
+      "max_relation_tokens": 8000,
+      "max_total_tokens": 30000,
+      "hl_keywords": "Authors of the paper Attention is all you need",
+      "ll_keywords": "",
+      "user_prompt": "",
+      "enable_rerank": true
+    },
+    "create_time": 1763834173,
+    "update_time": 1763834173,
+    "_id": "mix:query:edfc8192542505630a62550927f609b0"
   }
 }

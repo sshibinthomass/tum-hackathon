@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Left-margin non-textual artifact on page 1 (Attention Is All You Need) (discarded)">
+  <data key="d0">Left-margin non-textual artifact on page 1 (Attention Is All You Need) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A narrow, tall non-textual region on the first page (bbox [22,265,63,705]) with no extracted text. Likely a margin/gutter graphic, vertical rule, or publisher/permission mark adjacent to the title and author block; not critical to the paper's technical content but relevant for provenance or layout reconstruction.</data>
+  <data key="d3">chunk-5913e44b695143c3d7fecec2f1af5e17</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Author-contribution footnote for 'Attention Is All You Need' (discarded)">
+  <data key="d0">Author-contribution footnote for 'Attention Is All You Need' (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">Author-contribution footnote attributing key ideas and engineering work: Jakob proposed replacing RNNs with self-attention; Noam proposed scaled dot-product and multi-head attention plus positional scheme; Ashish and Illia implemented initial Transformers; Niki, Llion, Lukasz, and Aidan contributed code, tensor2tensor, tuning, inference, and visualizations. Contains affiliation markers (∗, †, ‡) and provenance details.</data>
+  <data key="d3">chunk-6b2db8dfdfda73b7fefce3d696163a80</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="NIPS 2017 bibliographic footer (31st Conference on Neural Information Processing Systems, Long Beach, CA) (discarded)">
+  <data key="d0">NIPS 2017 bibliographic footer (31st Conference on Neural Information Processing Systems, Long Beach, CA) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A footer line indicating the paper's publication venue: the 31st Conference on Neural Information Processing Systems (NIPS 2017) held in Long Beach, CA, USA. Serves as provenance/bibliographic metadata for citation, archival lookup, and document indexing.</data>
+  <data key="d3">chunk-6781d10d198f9087c5e002e48466ad07</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="pagination_marker_page_2 (discarded)">
+  <data key="d0">pagination_marker_page_2 (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A non-semantic pagination/layout artifact: the isolated digit '2' (with trailing space) likely representing the printed page number on page index 1. Useful for page-mapping and layout reconstruction but should be excluded from semantic indexing and NLP models.</data>
+  <data key="d3">chunk-97105dc01e93b4d84df3caad13715af3</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Transformer_model_architecture_Figure_1 (image)">
+  <data key="d0">Transformer_model_architecture_Figure_1 (image)</data>
+  <data key="d1">image</data>
+  <data key="d2">Schematic diagram of the Transformer encoder-decoder architecture: a left encoder stack (N=6) of multi-head self-attention and feed-forward sub-layers, and a right decoder stack (N=6) with masked self-attention, encoder-decoder attention, and feed-forward sub-layers. Embeddings are combined with positional encodings; encoder outputs feed into decoder attention; decoder produces outputs through a linear layer and softmax. The figure visualizes residual connections and Add &amp; Norm operations described in Sections 3 and 3.1.</data>
+  <data key="d3">chunk-b14e849e78f85a617af47b45fd656499</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Page-number/footer token '3' (pagination marker) (discarded)">
+  <data key="d0">Page-number/footer token '3' (pagination marker) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A single-character pagination artifact '3' (bbox [495,935,504,946]) likely representing the page number on physical page 3. It has no semantic role in the text but is useful as layout metadata for page segmentation and document reconstruction.</data>
+  <data key="d3">chunk-35a8aa10543865bc8c411749cbcf05e4</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Figure_2_Scaled_DotProduct_and_MultiHead_Attention_diagram_from_Transformer_paper (image)">
+  <data key="d0">Figure_2_Scaled_DotProduct_and_MultiHead_Attention_diagram_from_Transformer_paper (image)</data>
+  <data key="d1">image</data>
+  <data key="d2">Technical two-panel schematic: left panel shows Scaled Dot-Product Attention (Q, K, V → QK^T / sqrt(d_k) → softmax → weighted V, with optional masking); right panel shows Multi-Head Attention (learned linear projections W_i^Q/K/V → parallel attention heads → concatenation → output projection W^O). The figure visually maps to Sections 3.2 and 3.2.2, illustrating scaling, masking, and parallel attention heads.</data>
+  <data key="d3">chunk-1b9aaf36d59f2f0347d9d1ffa8df6d4b</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Scaled dot-product attention (equation)">
+  <data key="d0">Scaled dot-product attention (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">Defines the Transformer attention operator: compute dot-product scores QK^T, scale by 1/√d_k, apply row-wise softmax to obtain attention weights, and form weighted sums of V. It produces differentiable, normalized context vectors used throughout encoder/decoder attention, stabilizes gradients for large dimensions, and enables parallelizable modeling of pairwise interactions in sequence data.</data>
+  <data key="d3">chunk-07ebbd960aadcc1611f6b1a2d7759f19</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Statistical justification for scaling in Scaled Dot-Product Attention (discarded fragment) (discarded)">
+  <data key="d0">Statistical justification for scaling in Scaled Dot-Product Attention (discarded fragment) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A short probabilistic derivation assuming i.i.d. components (mean 0, variance 1) of q and k showing q·k = sum_i q_i k_i has mean 0 and variance d_k; supports the paper's motivation to scale dot products by 1/sqrt(d_k) to avoid large magnitudes and softmax saturation.</data>
+  <data key="d3">chunk-ebd33f4b91ec138e76e84ffd2c9ec597</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="page-number_footer_digit_page4 (discarded)">
+  <data key="d0">page-number_footer_digit_page4 (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A single-digit discarded token "4" with bbox [493,935,504,946] on page_idx 3, most likely a pagination/footer mark (printed page 4). It is a layout artifact with no semantic relevance to the Transformer content and should be preserved only as layout metadata for document reconstruction.</data>
+  <data key="d3">chunk-ba07431d87fe04e97deb0705c166f15b</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Multi-Head Attention (Transformer) (equation)">
+  <data key="d0">Multi-Head Attention (Transformer) (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">Defines the Transformer multi-head attention: project queries, keys, and values into h subspaces, apply scaled dot-product attention in each (head_i = Attention(QW_i^Q, KW_i^K, VW_i^V)), concatenate the h head outputs, and linearly project with W^O to produce the final d_model-dimensional output. This enables parallel, multi-subspace attention and stabilizes softmax gradients via 1/√d_k scaling.</data>
+  <data key="d3">chunk-71b0550271fdf0a898cd35e5d8b2fd23</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Position-wise feed-forward network (FFN) in the Transformer (equation)">
+  <data key="d0">Position-wise feed-forward network (FFN) in the Transformer (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">A two-layer position-wise MLP: project input x from d_model to a higher-dimensional hidden space d_ff via an affine map, apply ReLU elementwise, then project back to d_model. It provides per-position nonlinearity and increased capacity in Transformer layers, is implemented as two 1×1 convolutions, and is applied identically and independently at each sequence position.</data>
+  <data key="d3">chunk-f3a8f45137f2da168a9dc7fe376fa093</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="page_footer_pagination_token_5 (discarded)">
+  <data key="d0">page_footer_pagination_token_5 (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A single-character pagination/OCR artifact ('5') located in the page footer (bbox [493,935,504,946] on page_idx 4). Useful for pagination/layout metadata; not semantically relevant to the Transformer content and should be excluded from semantic indexing.</data>
+  <data key="d3">chunk-3468be2d64ebbef98ab8be50f6aae008</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Table 1: Complexity, Parallelism and Maximum Path Length Comparison of Layer Types (table)">
+  <data key="d0">Table 1: Complexity, Parallelism and Maximum Path Length Comparison of Layer Types (table)</data>
+  <data key="d1">table</data>
+  <data key="d2">Compares four layer types (Self-Attention, Recurrent, Convolutional, Self-Attention restricted) by per-layer computational complexity, minimum sequential operations, and maximum path length. Shows self-attention yields O(1) sequential operations and O(1) path length but O(n^2·d) compute, while recurrent layers are O(n·d^2) with O(n) serial steps and O(n) path length. The table supports the paper's argument favoring self-attention for parallelism and short dependency paths (max 100 words).</data>
+  <data key="d3">chunk-701d1b288248a1b622507aeb1a436649</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Sinusoidal positional encoding (Transformer) (equation)">
+  <data key="d0">Sinusoidal positional encoding (Transformer) (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">A deterministic mapping that encodes token positions into d_model-dimensional vectors using paired sine and cosine functions at geometrically spaced frequencies. These encodings are summed with token embeddings to provide absolute and linearizable relative positional information for the Transformer's attention-based architecture, enabling order-awareness without recurrence.</data>
+  <data key="d3">chunk-53601a6e0197c4b0bdb59fd1b8fbbc03</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="pagination_marker_page_6 (discarded)">
+  <data key="d0">pagination_marker_page_6 (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A single-character pagination/footer token '6' (bbox [493,936,504,946], page_idx 5). It is non-semantic layout metadata indicating the printed page number; useful for page alignment and provenance but not for content indexing.</data>
+  <data key="d3">chunk-b1bed0ea6444324ec428530469a0502b</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Transformer inverse-square-root learning-rate schedule with linear warmup (equation)">
+  <data key="d0">Transformer inverse-square-root learning-rate schedule with linear warmup (equation)</data>
+  <data key="d1">equation</data>
+  <data key="d2">A piecewise learning-rate schedule used to train Transformers: lrate = d_model^{-1/2} * min(step^{-1/2}, step * warmup_steps^{-3/2}). It linearly increases the rate during a warmup interval (preventing early instability), reaches a peak at step = warmup_steps, then decays as the inverse square root of step; scaled by d_model^{-1/2} to normalize across model sizes.</data>
+  <data key="d3">chunk-5b553f765177b573ddcca3e81efd2202</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="pagination_footer_page_7 ('7') (discarded)">
+  <data key="d0">pagination_footer_page_7 ('7') (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A pagination/footer artifact consisting of the single character '7' (bbox [493,935,504,946]) on page_idx 6, representing the page number (likely page 7). It is a layout marker useful for page alignment and provenance but holds no semantic content for the paper.</data>
+  <data key="d3">chunk-d6316acc831514d1f346d3599ee116c0</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Table 2 — Translation BLEU scores and training FLOPs comparison (table)">
+  <data key="d0">Table 2 — Translation BLEU scores and training FLOPs comparison (table)</data>
+  <data key="d1">table</data>
+  <data key="d2">Table 2 compares BLEU on WMT14 EN-DE and EN-FR and estimated training FLOPs for various models. Transformer (big) achieves the highest single-model BLEU (EN-DE 28.4, EN-FR 41.8) while using far fewer FLOPs than large ensembles (e.g., 2.3×10^19 FLOPs vs ≈10^21 FLOPs for some ensembles), supporting claims of superior accuracy and efficiency.</data>
+  <data key="d3">chunk-157bd100f04864e3700fd6674376be2d</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Footnote 5: GPU TFLOPS estimates (K80, K40, M40, P100) (discarded)">
+  <data key="d0">Footnote 5: GPU TFLOPS estimates (K80, K40, M40, P100) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A footnote providing per-GPU sustained single-precision throughput estimates used to compute training FLOPs: K80=2.8 TFLOPS, K40=3.7 TFLOPS, M40=6.0 TFLOPS, P100=9.5 TFLOPS. It supports the paper's training-cost calculations and comparisons.</data>
+  <data key="d3">chunk-f63402f5fd9dc08a85abf13908faebed</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+<node id="Isolated numeric glyph '8' (discarded OCR/layout artifact, page_idx 7) (discarded)">
+  <data key="d0">Isolated numeric glyph '8' (discarded OCR/layout artifact, page_idx 7) (discarded)</data>
+  <data key="d1">discarded</data>
+  <data key="d2">A single discarded digit '8' (bbox [493,935,504,946], page_idx 7). Likely a layout/footer artifact or a fragmented numeric token related to nearby mentions of "8 NVIDIA P100 GPUs"; low standalone semantic value but useful for pagination or re-association during OCR cleanup.</data>
+  <data key="d3">chunk-0addec9f81166f5b4c6c1159094b366d</data>
+  <data key="d4">attention.pdf</data>
+  <data key="d5">1763834865</data>
+</node>
+</graph></graphml>

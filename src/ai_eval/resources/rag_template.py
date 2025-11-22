@@ -8,8 +8,13 @@ from langchain_core.language_models.llms import LLM
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.vectorstores import VectorStore
+from langchain_openai import OpenAIEmbeddings
 
 from ai_eval.utils.utils import validate_documents
+import json
+from pathlib import Path
+import numpy as np
+import os
 
 
 class RAG(ABC):
@@ -274,6 +279,70 @@ class RAGAnythingRAG(RAG):
                 "Initialize RAG-Anything first and pass it here."
             )
 
+    def _robust_retrieve(self, question: str, top_k: int) -> List[Document]:
+        """Robust retrieval using direct chunk access and vector similarity."""
+        try:
+            working_dir = self.rag_anything.working_dir
+            chunks_file = Path(working_dir) / "kv_store_text_chunks.json"
+            
+            if not chunks_file.exists():
+                return []
+            
+            with open(chunks_file) as f:
+                chunks_data = json.load(f)
+            
+            chunks = []
+            for chunk_id, chunk_info in chunks_data.items():
+                content = chunk_info.get('content', '')
+                if content:
+                    chunks.append((chunk_id, content))
+            
+            if not chunks:
+                return []
+                
+            # Initialize embedding model
+            # We assume OpenAI for now as it's what we use
+            # Use environment variable for API key if available
+            embedding_model = OpenAIEmbeddings(model="text-embedding-3-large")
+            
+            # Get embeddings
+            query_embedding = embedding_model.embed_query(question)
+            chunk_texts = [content for _, content in chunks]
+            chunk_embeddings = embedding_model.embed_documents(chunk_texts)
+            
+            # Calculate similarity
+            query_vec = np.array(query_embedding)
+            similarities = []
+            
+            for i, chunk_emb in enumerate(chunk_embeddings):
+                chunk_vec = np.array(chunk_emb)
+                similarity = np.dot(query_vec, chunk_vec) / (
+                    np.linalg.norm(query_vec) * np.linalg.norm(chunk_vec)
+                )
+                similarities.append((i, similarity))
+            
+            similarities.sort(key=lambda x: x[1], reverse=True)
+            
+            docs = []
+            for i, (idx, sim) in enumerate(similarities[:top_k]):
+                chunk_id, content = chunks[idx]
+                doc = Document(
+                    page_content=content,
+                    metadata={
+                        "chunk_id": chunk_id,
+                        "similarity": float(sim),
+                        "source": "raganything_robust",
+                        "type": "text"
+                    }
+                )
+                docs.append(doc)
+                
+            return docs
+            
+        except Exception as e:
+            print(f"Robust retrieval failed: {e}")
+            return []
+
     def retrieve(
         self,
         question: str,
@@ -292,8 +361,25 @@ class RAGAnythingRAG(RAG):
         """
         import asyncio
 
-        # Allow overriding k via kwargs
+        # Allow overriding query parameters via kwargs
         top_k = kwargs.get("top_k", self.k)
+        mode = kwargs.get("mode", "naive")  # Default to naive for better metadata retrieval
+        
+        # If mode is naive, try robust retrieval first
+        if mode == "naive":
+            print("Using robust retrieval (direct chunk access)...")
+            docs = self._robust_retrieve(question, top_k)
+            if docs:
+                return docs
+            print("Robust retrieval returned no docs, falling back...")
+
+        cosine_threshold = kwargs.get("cosine_threshold", 0.1)  # Lower threshold for more results
+
+        # Build param dict for LightRAG
+        query_params = {
+            "top_k": top_k,
+            "cosine_threshold": cosine_threshold,
+        }
 
         # Use RAG-Anything's aquery method (async query)
         # Note: RAG-Anything's aquery returns a string answer, not documents
@@ -315,23 +401,27 @@ class RAGAnythingRAG(RAG):
                 # Use aquery_with_multimodal to get context documents
                 if hasattr(self.rag_anything, "aquery_with_multimodal"):
                     result = asyncio.run(
-                        self.rag_anything.aquery_with_multimodal(question, mode="mix")
+                        self.rag_anything.aquery_with_multimodal(
+                            question, mode=mode, param=query_params
+                        )
                     )
                 else:
-                    # Fallback to regular aquery
+                    # Fallback to regular aquery with parameters
                     answer_text = asyncio.run(
-                        self.rag_anything.aquery(question, mode="mix")
+                        self.rag_anything.aquery(question, mode=mode, param=query_params)
                     )
                     result = {"answer": answer_text, "contexts": []}
             except RuntimeError:
                 # No running loop, create new one
                 if hasattr(self.rag_anything, "aquery_with_multimodal"):
                     result = asyncio.run(
-                        self.rag_anything.aquery_with_multimodal(question, mode="mix")
+                        self.rag_anything.aquery_with_multimodal(
+                            question, mode=mode, param=query_params
+                        )
                     )
                 else:
                     answer_text = asyncio.run(
-                        self.rag_anything.aquery(question, mode="mix")
+                        self.rag_anything.aquery(question, mode=mode, param=query_params)
                     )
                     result = {"answer": answer_text, "contexts": []}
         except Exception:
