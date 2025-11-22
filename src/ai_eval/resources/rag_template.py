@@ -214,19 +214,8 @@ class FAISSRAG(RAG):
         *args: Any,
         **kwargs: Any,
     ) -> List[Document]:
-        retriever = self.vectorstore.as_retriever()
-        rag_retrieval_prompt = PromptTemplate(
-            input_variables=["context"],
-            template="You are an AI document retrieval assistant. Using the following context generate a concise answer: {context}\n\nOutput also the source of the information.\n\nAnswer:",
-        )
-        combine_docs_chain = create_stuff_documents_chain(
-            self.llm, rag_retrieval_prompt
-        )
-        retrieval_chain = create_retrieval_chain(retriever, combine_docs_chain)
-        retrieval_result = retrieval_chain.invoke({"input": question})
-        relevant_docs = retrieval_result["context"]
-        if relevant_docs is None:
-            return []
+        retriever = self.vectorstore.as_retriever(search_kwargs={"k": self.k})
+        relevant_docs = retriever.invoke(question)
         return relevant_docs
 
     def generate(

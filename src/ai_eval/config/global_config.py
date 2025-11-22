@@ -18,7 +18,7 @@ defaults = {
         "CODE_DIR": str(package_root / "src"),
         "DATA_DIR": "",
         "DATA_PKG_DIR": str(package_root / "data"),
-        "MODEL_PROVIDER": "google",  # ollama google
+        "MODEL_PROVIDER": "ollama",  # ollama google openai
     },
     "local-docker": {
         "CODE_DIR": "/app/src/",
