@@ -1,0 +1,1471 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Actionbar">
+      <data key="d0">Actionbar</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Actionbar is a critical feature and component within software applications, serving as an interface element designed to assist users in finding tools across various tasks and roles. It is characterized by its organization of tabs and icons categorized under headers such as 'Elements,' 'Finish,' and 'Modeling,' which facilitate quick navigation and access to essential functions.
+
+The Actionbar is not only responsible for navigation but also for providing functionalities that include features and selection counts, although specific details may vary depending on usage and content analysis. It serves as a label for a section of navigational tools and configurators within the application, emphasizing its role in enhancing user experience.
+
+To utilize the Actionbar effectively, users must engage in its installation and configuration, tailoring it to meet specific needs. It also encompasses features that allow for further customization, indicating its adaptability to various user requirements and preferences. Overall, the Actionbar is a fundamental aspect of the digital user interface, central to navigating and managing tools and functionalities within the software.</data>
+      <data key="d3">chunk-2eece667a0abd681fd9771fbc947ab0c&lt;SEP&gt;chunk-8b69061d3434fcadb9ff1a962626a9c2&lt;SEP&gt;chunk-a62a5789a89818664a9608722e9a4675&lt;SEP&gt;chunk-5ba025c345d68b50845a51b961edd652&lt;SEP&gt;chunk-057178c93eaf0bfdc4df9ac45f825915&lt;SEP&gt;chunk-6fb95c12327901203ded555fa9a523ae&lt;SEP&gt;chunk-4e138d02b6e470e2e208d53528f68cc6&lt;SEP&gt;chunk-fe73591698fb3433cb8f09783031c7b7</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850892</data>
+      <data key="d6" />
+    </node>
+    <node id="Find Tool">
+      <data key="d0">Find Tool</data>
+      <data key="d1">method</data>
+      <data key="d2">The Find Tool is a function within the Actionbar used to search for tools by their names or parts of their names.</data>
+      <data key="d3">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850829</data>
+      <data key="d6" />
+    </node>
+    <node id="Actionbar Configurator">
+      <data key="d0">Actionbar Configurator</data>
+      <data key="d1">method</data>
+      <data key="d2">The Actionbar Configurator is a tool that allows users to customize the Actionbar to meet their specific needs and requirements.</data>
+      <data key="d3">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850829</data>
+      <data key="d6" />
+    </node>
+    <node id="Create New Role Dialog Box">
+      <data key="d0">Create New Role Dialog Box</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Create New Role Dialog Box is an interface for users to create new roles based on templates or design an empty role.</data>
+      <data key="d3">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850829</data>
+      <data key="d6" />
+    </node>
+    <node id="Find... Dialog Box">
+      <data key="d0">Find... Dialog Box</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Find... Dialog Box allows users to see search results for tools that match the entered text within the Actionbar.</data>
+      <data key="d3">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850829</data>
+      <data key="d6" />
+    </node>
+    <node id="Find_Dialog_Box_Example (image)">
+      <data key="d0">Find_Dialog_Box_Example (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">This image depicts a 'Find...' dialog box within a software application, used for searching tools or text. It includes input fields, search options, and directional controls, aligning with the Actionbar context in which users configure and find software tools.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Design Software Actionbar UI with Find Tool Dialog (image)">
+      <data key="d0">Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">This image displays a software interface with an Actionbar showing tool categories and a Find dialog used to locate a 'SmartPart.' It illustrates the search functionality within the application, referencing its configuration and customization features presented in the context.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Placeholder Numerical Value (discarded)">
+      <data key="d0">Placeholder Numerical Value (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The content consists of a solitary numerical entry '29 ', lacking contextual significance. Its absence of any informative connection renders it inconsequential to the broader discourse on Actionbar functionalities, tools, or configurations.</data>
+      <data key="d3">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Allplan User Interface Overview (discarded)">
+      <data key="d0">Allplan User Interface Overview (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This header references Allplan's user interface, a key component impacting how users interact with tools and configurations. Although discarded, it is pivotal for setting the stage for user experience discussions related to the Actionbar and tool customization.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Installation Basics Guide (discarded)">
+      <data key="d0">Installation Basics Guide (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The content serves as a potential header for installation instructions relevant to the Actionbar functionalities, indicating foundational knowledge necessary to navigate subsequent topics on finding and configuring tools.</data>
+      <data key="d3">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Actionbar Configuration Screen (image)">
+      <data key="d0">Actionbar Configuration Screen (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">The image depicts the 'Actionbar Configuration' screen of a software tool, showcasing user interface elements for configuring tasks and roles. It features categorized icons, role selection options, task areas, and a tool configuration panel, relevant to customizing the application interface for user-specific needs.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Allplan 2020 Reference (discarded)">
+      <data key="d0">Allplan 2020 Reference (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded reference 'Allplan 2020' likely denotes the version of the software. It serves as an identifier but lacks additional detail or explanation, providing limited relevance to the surrounding instructions on Actionbar functionality.</data>
+      <data key="d3">chunk-fe73591698fb3433cb8f09783031c7b7</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Numeric Fragment (discarded)">
+      <data key="d0">Numeric Fragment (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">This content consists solely of the numeral '30' without context or explanation, thus holding limited to no relevance to the Actionbar's functionality or customization. It appears to be an extraneous detail amid structured instructions on using and configuring tools.</data>
+      <data key="d3">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Actionbar Label (discarded)">
+      <data key="d0">Actionbar Label (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The content is a simple label 'Actionbar', intended to signify a section dedicated to Actionbar tools and configurations. It serves a navigational purpose but lacks depth and detailed information, leading to its discarding in favor of more informative content.</data>
+      <data key="d3">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Single Chinese Character '中' (discarded)">
+      <data key="d0">Single Chinese Character '中' (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">A solitary character '中', which lacks context and relevance to the surrounding discussions on Actionbar functionalities. It does not contribute to user understanding of tool navigation or configuration processes.</data>
+      <data key="d3">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850861</data>
+    </node>
+    <node id="Actionbar Configuration">
+      <data key="d0">Actionbar Configuration</data>
+      <data key="d1">content</data>
+      <data key="d2">Actionbar Configuration is a user interface screen in a software application used for configuring tasks and managing roles.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Navigation Bar">
+      <data key="d0">Navigation Bar</data>
+      <data key="d1">component</data>
+      <data key="d2">The Navigation Bar is located at the top of the Actionbar Configuration screen, providing access to main tabs for configuring tasks and managing roles.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Configure Tasks Tab">
+      <data key="d0">Configure Tasks Tab</data>
+      <data key="d1">component</data>
+      <data key="d2">The Configure Tasks Tab is the currently active section within the Navigation Bar, allowing users to modify task settings.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Manage Roles Tab">
+      <data key="d0">Manage Roles Tab</data>
+      <data key="d1">component</data>
+      <data key="d2">The Manage Roles Tab is an inactive section in the Navigation Bar, designated for managing user roles within the software.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Icons">
+      <data key="d0">Icons</data>
+      <data key="d1">content</data>
+      <data key="d2">Icons represent various tools or functions organized in categories such as Elements, Finish, and Modeling within the Actionbar Configuration interface.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Select Role Section">
+      <data key="d0">Select Role Section</data>
+      <data key="d1">component</data>
+      <data key="d2">The Select Role Section contains a dropdown menu for selecting user roles, with 'Architecture' being the currently displayed role.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Create New Role Button">
+      <data key="d0">Create New Role Button</data>
+      <data key="d1">component</data>
+      <data key="d2">The Create New Role Button is an interactive element adjacent to the Select Role Section, allowing users to add new roles.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Task Areas Panel">
+      <data key="d0">Task Areas Panel</data>
+      <data key="d1">component</data>
+      <data key="d2">The Task Areas Panel lists various task entries such as 'Empty task area' and '2D Objects,' displayed vertically on the left side of the interface.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Tools Panel">
+      <data key="d0">Tools Panel</data>
+      <data key="d1">component</data>
+      <data key="d2">The Tools Panel is displayed on the right side of the interface, currently empty with a search field for finding specific tools.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Informational Box">
+      <data key="d0">Informational Box</data>
+      <data key="d1">component</data>
+      <data key="d2">The Informational Box provides instructions on configuring the action bar, including operations for moving, deleting, or adding elements.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850887</data>
+      <data key="d6" />
+    </node>
+    <node id="Save Button">
+      <data key="d0">Save Button</data>
+      <data key="d1">component</data>
+      <data key="d2">The Save Button allows users to confirm their configuration changes within the Actionbar Configuration interface.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Cancel Button">
+      <data key="d0">Cancel Button</data>
+      <data key="d1">component</data>
+      <data key="d2">The Cancel Button is located within the dialog box for aborting the search operation.&lt;SEP&gt;The Cancel Button lets users discard their configuration changes made in the Actionbar Configuration interface.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e&lt;SEP&gt;chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Color Palette">
+      <data key="d0">Color Palette</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Color Palette refers to the range of colors used, specifically blue, gray, and red, in the icons on the Actionbar Configuration interface.</data>
+      <data key="d3">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Discarded Content">
+      <data key="d0">Discarded Content</data>
+      <data key="d1">other</data>
+      <data key="d2">Discarded content refers to the text '29 ', which lacks meaningful context and is identified as detached from surrounding information.&lt;SEP&gt;Discarded Content refers to the part of the text labeled as 'Installation, Basics,' which outlines foundational steps for using Actionbar but lacks detailed information.&lt;SEP&gt;Discarded Content represents the content that has been removed from analysis due to lack of context or explanatory elements.</data>
+      <data key="d3">chunk-8b69061d3434fcadb9ff1a962626a9c2&lt;SEP&gt;chunk-a62a5789a89818664a9608722e9a4675&lt;SEP&gt;chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Content Analysis">
+      <data key="d0">Content Analysis</data>
+      <data key="d1">method</data>
+      <data key="d2">Content analysis is the evaluation method used to determine the relevance and meaningfulness of text, in this case evaluating discarded content.</data>
+      <data key="d3">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Installation, Basics">
+      <data key="d0">Installation, Basics</data>
+      <data key="d1">content</data>
+      <data key="d2">Installation, Basics appears to be a title for an introductory segment focused on the installation and setup of the Actionbar tool.</data>
+      <data key="d3">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Actionbar Tool">
+      <data key="d0">Actionbar Tool</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Actionbar Tool is a software application that requires installation and configuration steps for effective operation.</data>
+      <data key="d3">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Chinese Character">
+      <data key="d0">Chinese Character</data>
+      <data key="d1">content</data>
+      <data key="d2">The Chinese character '中' is a symbol that can have multiple interpretations, including meanings like 'middle' or 'center.'</data>
+      <data key="d3">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Actionbar Functionalities">
+      <data key="d0">Actionbar Functionalities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Actionbar Functionalities refer to features within Allplan's interface that aid users in configuring tools and searching effectively.&lt;SEP&gt;Actionbar functionalities refer to the tools and configurations that users can manipulate within the Actionbar for task-oriented purposes.</data>
+      <data key="d3">chunk-5ba025c345d68b50845a51b961edd652&lt;SEP&gt;chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Image Content Analysis">
+      <data key="d0">Image Content Analysis</data>
+      <data key="d1">concept</data>
+      <data key="d2">Image Content Analysis refers to the evaluation of images for their visual elements and contextual information.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="User Interface Dialog Box">
+      <data key="d0">User Interface Dialog Box</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The User Interface Dialog Box is a rectangular interface element titled 'Find...' that allows users to enter search queries and configure additional options.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Find:">
+      <data key="d0">Find:</data>
+      <data key="d1">content</data>
+      <data key="d2">The label 'Find:' indicates an input box where users can type text to search for specific tools or elements within the software application.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Search Direction">
+      <data key="d0">Search Direction</data>
+      <data key="d1">concept</data>
+      <data key="d2">Search Direction is a feature within the dialog box that allows users to select the direction of their search, marked by options 'Up' and 'Down'.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Continue Button">
+      <data key="d0">Continue Button</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Continue Button is located within the dialog box for executing the search operation.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Labels">
+      <data key="d0">Labels</data>
+      <data key="d1">content</data>
+      <data key="d2">Labels are elements within the User Interface Dialog Box used for indicating input purposes like 'Find:'.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Input Fields">
+      <data key="d0">Input Fields</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Input Fields are part of the User Interface Dialog Box that allows users to enter text for searches.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Checkboxes">
+      <data key="d0">Checkboxes</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Checkboxes serve as additional search parameters, allowing users to refine their queries.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Drop-Down Arrow">
+      <data key="d0">Drop-Down Arrow</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Drop-Down Arrow is an element next to the input box that likely provides additional options or history for search.</data>
+      <data key="d3">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850888</data>
+      <data key="d6" />
+    </node>
+    <node id="Discarded Content Analysis">
+      <data key="d0">Discarded Content Analysis</data>
+      <data key="d1">concept</data>
+      <data key="d2">Discarded Content Analysis refers to the evaluation of content deemed unimportant or insignificant in a text review process.</data>
+      <data key="d3">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Numeral '30'">
+      <data key="d0">Numeral '30'</data>
+      <data key="d1">data</data>
+      <data key="d2">The numeral '30' appears as a discarded fragment, lacking contextual significance or actionable insights in the analysis.</data>
+      <data key="d3">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Bounding Box [62, 63, 83, 77]">
+      <data key="d0">Bounding Box [62, 63, 83, 77]</data>
+      <data key="d1">data</data>
+      <data key="d2">The bounding box [62, 63, 83, 77] indicates the position of the numeral '30' within the text document on page 1.</data>
+      <data key="d3">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Content Fragment">
+      <data key="d0">Content Fragment</data>
+      <data key="d1">data</data>
+      <data key="d2">The content fragment appears to be an extraneous piece of text, deemed insubstantial and lacking meaning in the context of the surrounding analysis.</data>
+      <data key="d3">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Software Application">
+      <data key="d0">Software Application</data>
+      <data key="d1">concept</data>
+      <data key="d2">Software Application refers to the overall system or program within which the Actionbar and associated tools are utilized for functionality and navigation.</data>
+      <data key="d3">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Digital User Interface">
+      <data key="d0">Digital User Interface</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Digital User Interface is the visual representation of a software application designed for user interaction, characterized by various categorized tools and options.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Design Software Application">
+      <data key="d0">Design Software Application</data>
+      <data key="d1">software</data>
+      <data key="d2">The Design Software Application is a platform that utilizes the digital user interface for architectural design purposes and customization of tool functionalities.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Elements">
+      <data key="d0">Elements</data>
+      <data key="d1">category</data>
+      <data key="d2">Elements is a header category within the Actionbar that includes icons representing design tools and components for building structures.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Domed Roof-Light SmartPart">
+      <data key="d0">Domed Roof-Light SmartPart</data>
+      <data key="d1">content</data>
+      <data key="d2">The Domed Roof-Light SmartPart is a specific tool option found within the dropdown menu of the design software application, used for roof designs.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Find Dialogue Box">
+      <data key="d0">Find Dialogue Box</data>
+      <data key="d1">artifact</data>
+      <data key="d2">The Find Dialogue Box allows users to search for specific text or tools within the software application, enhancing navigation and functionality.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Layout Editor">
+      <data key="d0">Layout Editor</data>
+      <data key="d1">category</data>
+      <data key="d2">The Layout Editor is a category within the Actionbar that includes options for arranging design components visually in the software application.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="User-Defined Objects">
+      <data key="d0">User-Defined Objects</data>
+      <data key="d1">category</data>
+      <data key="d2">User-Defined Objects is a header category in the Actionbar that allows users to create and incorporate custom design elements in the software.</data>
+      <data key="d3">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Allplan">
+      <data key="d0">Allplan</data>
+      <data key="d1">organization</data>
+      <data key="d2">Allplan is an application known for its user interface, crucial for user experience relating to tool configuration and navigation.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="User Interface">
+      <data key="d0">User Interface</data>
+      <data key="d1">concept</data>
+      <data key="d2">The User Interface of Allplan is essential for users to understand its functionalities and features for effective navigation and customization.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Digital Tools">
+      <data key="d0">Digital Tools</data>
+      <data key="d1">concept</data>
+      <data key="d2">Digital Tools encompass various functionalities that enhance usability and customization in applications like Allplan.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Tool Configuration">
+      <data key="d0">Tool Configuration</data>
+      <data key="d1">concept</data>
+      <data key="d2">Tool Configuration refers to the process of setting up tools within the user interface of Allplan to meet user needs.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Search Capabilities">
+      <data key="d0">Search Capabilities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Search Capabilities are functionalities in Allplan's user interface that allow users to efficiently find and utilize features and tools.</data>
+      <data key="d3">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <node id="Allplan 2020">
+      <data key="d0">Allplan 2020</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Allplan 2020 is a version identifier likely indicating the version of the software within the context provided.</data>
+      <data key="d3">chunk-fe73591698fb3433cb8f09783031c7b7</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763850889</data>
+      <data key="d6" />
+    </node>
+    <edge source="Actionbar" target="Find Tool">
+      <data key="d7">1.0</data>
+      <data key="d8">The Find Tool is a functionality of the Actionbar that enables users to search for specific tools.</data>
+      <data key="d9">functionality,tool usage</data>
+      <data key="d10">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850829</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Actionbar Configurator">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar Configurator is a component of the Actionbar used for customizing its settings and functionalities.</data>
+      <data key="d9">configuration,customization</data>
+      <data key="d10">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850829</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Find... Dialog Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar opens the Find... Dialog Box to display tools that match the user's search criteria.</data>
+      <data key="d9">dialog interaction,tool access</data>
+      <data key="d10">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850830</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Discarded Content">
+      <data key="d7">3.0</data>
+      <data key="d8">The discarded content is related to the Actionbar as it indicates a numeral that could represent a feature within this interface.&lt;SEP&gt;The Discarded Content titled 'Installation, Basics' is relevant in setting the context for understanding the prerequisites of using the Actionbar tool.&lt;SEP&gt;The term Actionbar is a part of the Discarded Content that relates to user interface components aimed at software navigation.</data>
+      <data key="d9">content relevance,contextual relevance,instructional support,interface component,interface element,software functionality</data>
+      <data key="d10">chunk-8b69061d3434fcadb9ff1a962626a9c2&lt;SEP&gt;chunk-a62a5789a89818664a9608722e9a4675&lt;SEP&gt;chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Content Analysis">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar is involved in the content analysis, which assesses the value of the text positioned within it.</data>
+      <data key="d9">evaluation method,feature analysis</data>
+      <data key="d10">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Placeholder Numerical Value (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Placeholder Numerical Value (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Installation, Basics">
+      <data key="d7">1.0</data>
+      <data key="d8">The section titled 'Installation, Basics' serves as instructional guidance for the foundational steps necessary to effectively use Actionbar.</data>
+      <data key="d9">foundational steps,instructional guidance</data>
+      <data key="d10">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Installation Basics Guide (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Installation Basics Guide (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Chinese Character">
+      <data key="d7">1.0</data>
+      <data key="d8">The Chinese character '中' is deemed irrelevant to the discussion of Actionbar functionalities and does not aid user understanding.</data>
+      <data key="d9">irrelevant content,user understanding</data>
+      <data key="d10">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Single Chinese Character '中' (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Single Chinese Character '中' (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Discarded Content Analysis">
+      <data key="d7">1.0</data>
+      <data key="d8">The analysis emphasizes the relevance of content management within the context of Actionbar functionalities.</data>
+      <data key="d9">content management,user interface</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Content Fragment">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar is associated with the content fragment as part of the content review process described in the analysis.</data>
+      <data key="d9">content review,user interface</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Numeric Fragment (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Numeric Fragment (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Software Application">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar serves as an interface component within the Software Application, aiding user navigation and access to tools and configurators.</data>
+      <data key="d9">interface component,software navigation</data>
+      <data key="d10">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Actionbar Label (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Actionbar Label (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Design Software Application">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar serves as a key interface component within the Design Software Application, providing easy access to various design tools.</data>
+      <data key="d9">function,interface component</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Elements">
+      <data key="d7">1.0</data>
+      <data key="d8">The Elements category organizes various design tools within the Actionbar for streamlined access in the digital user interface.</data>
+      <data key="d9">interface structure,tool categorization</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Layout Editor">
+      <data key="d7">1.0</data>
+      <data key="d8">The Layout Editor is a category within the Actionbar that helps users manage visual arrangements in the design software application.</data>
+      <data key="d9">interface structure,tool categorization</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="User-Defined Objects">
+      <data key="d7">1.0</data>
+      <data key="d8">User-Defined Objects provides options for customization within the Actionbar, enhancing the design process in the software application.</data>
+      <data key="d9">interface function,tool customization</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Design Software Actionbar UI with Find Tool Dialog (image)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar" target="Allplan 2020 Reference (discarded)">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar belongs to Allplan 2020 Reference (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-fe73591698fb3433cb8f09783031c7b7</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850908</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configurator" target="Create New Role Dialog Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Create New Role Dialog Box is accessed through the Actionbar Configurator for the purpose of managing roles.</data>
+      <data key="d9">role management,user interface</data>
+      <data key="d10">chunk-2eece667a0abd681fd9771fbc947ab0c</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850829</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Image Content Analysis">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Image Content Analysis belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="User Interface Dialog Box">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity User Interface Dialog Box belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850900</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Find:">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Find: belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850900</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Search Direction">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Search Direction belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Continue Button">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Continue Button belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Cancel Button">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Cancel Button belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Labels">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Labels belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Input Fields">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Input Fields belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Checkboxes">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Checkboxes belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Find_Dialog_Box_Example (image)" target="Drop-Down Arrow">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Drop-Down Arrow belongs to Find_Dialog_Box_Example (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Digital User Interface">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Digital User Interface belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Design Software Application">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Design Software Application belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Elements">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Elements belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Domed Roof-Light SmartPart">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Domed Roof-Light SmartPart belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Find Dialogue Box">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Find Dialogue Box belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="Layout Editor">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Layout Editor belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Actionbar UI with Find Tool Dialog (image)" target="User-Defined Objects">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity User-Defined Objects belongs to Design Software Actionbar UI with Find Tool Dialog (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Placeholder Numerical Value (discarded)" target="Discarded Content">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Discarded Content belongs to Placeholder Numerical Value (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Placeholder Numerical Value (discarded)" target="Content Analysis">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Content Analysis belongs to Placeholder Numerical Value (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-8b69061d3434fcadb9ff1a962626a9c2</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="Allplan">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Allplan belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="User Interface">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity User Interface belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="Actionbar Functionalities">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar Functionalities belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850908</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="Digital Tools">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Digital Tools belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850908</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="Tool Configuration">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Tool Configuration belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850909</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan User Interface Overview (discarded)" target="Search Capabilities">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Search Capabilities belongs to Allplan User Interface Overview (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850909</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Installation Basics Guide (discarded)" target="Discarded Content">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Discarded Content belongs to Installation Basics Guide (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Installation Basics Guide (discarded)" target="Installation, Basics">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Installation, Basics belongs to Installation Basics Guide (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Installation Basics Guide (discarded)" target="Actionbar Tool">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar Tool belongs to Installation Basics Guide (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a62a5789a89818664a9608722e9a4675</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Navigation Bar">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Navigation Bar belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Configure Tasks Tab">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Configure Tasks Tab belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Manage Roles Tab">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Manage Roles Tab belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Icons">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Icons belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Select Role Section">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Select Role Section belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Create New Role Button">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Create New Role Button belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Task Areas Panel">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Task Areas Panel belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Tools Panel">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Tools Panel belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Informational Box">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Informational Box belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Save Button">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Save Button belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Cancel Button">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Cancel Button belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Color Palette">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Color Palette belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration Screen (image)" target="Actionbar Configuration">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar Configuration belongs to Actionbar Configuration Screen (image)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan 2020 Reference (discarded)" target="Allplan 2020">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Allplan 2020 belongs to Allplan 2020 Reference (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-fe73591698fb3433cb8f09783031c7b7</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Numeric Fragment (discarded)" target="Discarded Content Analysis">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Discarded Content Analysis belongs to Numeric Fragment (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Numeric Fragment (discarded)" target="Numeral '30'">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Numeral '30' belongs to Numeric Fragment (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Numeric Fragment (discarded)" target="Bounding Box [62, 63, 83, 77]">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Bounding Box [62, 63, 83, 77] belongs to Numeric Fragment (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Numeric Fragment (discarded)" target="Content Fragment">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Content Fragment belongs to Numeric Fragment (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Label (discarded)" target="Discarded Content">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Discarded Content belongs to Actionbar Label (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Label (discarded)" target="Software Application">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Software Application belongs to Actionbar Label (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-6fb95c12327901203ded555fa9a523ae</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Single Chinese Character '中' (discarded)" target="Chinese Character">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Chinese Character belongs to Single Chinese Character '中' (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Single Chinese Character '中' (discarded)" target="Actionbar Functionalities">
+      <data key="d7">10.0</data>
+      <data key="d8">Entity Actionbar Functionalities belongs to Single Chinese Character '中' (discarded)</data>
+      <data key="d9">belongs_to,contained_in,part_of</data>
+      <data key="d10">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Navigation Bar">
+      <data key="d7">1.0</data>
+      <data key="d8">The Actionbar Configuration interface features a Navigation Bar at the top for easy access to main functional tabs.</data>
+      <data key="d9">accessibility,interface component</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Configure Tasks Tab">
+      <data key="d7">1.0</data>
+      <data key="d8">The Configure Tasks Tab is the currently active section that allows user interaction for task configuration.</data>
+      <data key="d9">active section,user interaction</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Select Role Section">
+      <data key="d7">1.0</data>
+      <data key="d8">The Select Role Section is part of the Actionbar Configuration, enabling users to choose their working role.</data>
+      <data key="d9">configuration,role selection</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Task Areas Panel">
+      <data key="d7">1.0</data>
+      <data key="d8">The Task Areas Panel is an organizational component within the Actionbar Configuration interface.</data>
+      <data key="d9">task organization,user interface</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Tools Panel">
+      <data key="d7">1.0</data>
+      <data key="d8">The Tools Panel supports functionalities related to tool searching within the Actionbar Configuration interface.</data>
+      <data key="d9">functionality,tool search</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Informational Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Informational Box provides guidance on configuring options within the Actionbar Configuration.</data>
+      <data key="d9">configuration instructions,guidance</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Save Button">
+      <data key="d7">1.0</data>
+      <data key="d8">The Save Button finalizes user settings in the Actionbar Configuration.</data>
+      <data key="d9">confirmation action,user settings</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Configuration" target="Cancel Button">
+      <data key="d7">1.0</data>
+      <data key="d8">The Cancel Button allows users to discard settings in the Actionbar Configuration.</data>
+      <data key="d9">discard action,user settings</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Icons" target="Color Palette">
+      <data key="d7">1.0</data>
+      <data key="d8">The Icons within the Actionbar Configuration interface utilize the Color Palette of blue, gray, and red for their visual representation.</data>
+      <data key="d9">design elements,visual representation</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Select Role Section" target="Create New Role Button">
+      <data key="d7">1.0</data>
+      <data key="d8">The Create New Role Button allows role management within the Select Role Section.</data>
+      <data key="d9">functionality,role management</data>
+      <data key="d10">chunk-a470e79f53f1c04c1ee5ec63a3029c3e</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Cancel Button" target="User Interface Dialog Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Cancel Button is an action button within the User Interface Dialog Box used to terminate the search operation.</data>
+      <data key="d9">action button,search termination</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Chinese Character" target="Actionbar Functionalities">
+      <data key="d7">1.0</data>
+      <data key="d8">The character '中' fails to provide relevant context for Actionbar functionalities, impacting user understanding of the tool navigation.</data>
+      <data key="d9">context relevance,user understanding</data>
+      <data key="d10">chunk-5ba025c345d68b50845a51b961edd652</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Actionbar Functionalities" target="User Interface">
+      <data key="d7">1.0</data>
+      <data key="d8">The user interface contextualizes Actionbar functionalities, which are integral for configuring tools in Allplan.</data>
+      <data key="d9">functional integration,usability</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Find:">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box includes the label 'Find:' as part of its functionality for entering search queries.</data>
+      <data key="d9">functional element,search capability</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Search Direction">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box contains the Search Direction feature, enabling users to specify their search direction.</data>
+      <data key="d9">feature setting,user selection</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Continue Button">
+      <data key="d7">1.0</data>
+      <data key="d8">The Continue Button is an action button within the User Interface Dialog Box used to execute the search.</data>
+      <data key="d9">action button,search execution</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Labels">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box includes Labels that guide users on how to use the input fields.</data>
+      <data key="d9">component function,user guidance</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850899</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Input Fields">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box contains Input Fields where users can enter search text.</data>
+      <data key="d9">search feature,user interaction</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850899</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Checkboxes">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box includes Checkboxes that offer additional parameters for refining search queries.</data>
+      <data key="d9">additional setting,search parameters</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850899</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface Dialog Box" target="Drop-Down Arrow">
+      <data key="d7">1.0</data>
+      <data key="d8">The User Interface Dialog Box features a Drop-Down Arrow for providing additional search options.</data>
+      <data key="d9">enhanced search,navigation feature</data>
+      <data key="d10">chunk-6082285162acf7793c2bb17b2a5d1b77</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850900</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Discarded Content Analysis" target="Numeral '30'">
+      <data key="d7">1.0</data>
+      <data key="d8">The Discarded Content Analysis evaluates the numeral '30' as an insignificant fragment lacking in meaningful context.</data>
+      <data key="d9">content evaluation,significance assessment</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Numeral '30'" target="Bounding Box [62, 63, 83, 77]">
+      <data key="d7">1.0</data>
+      <data key="d8">The bounding box [62, 63, 83, 77] represents the location of the numeral '30' in the document.</data>
+      <data key="d9">data representation,text positioning</data>
+      <data key="d10">chunk-057178c93eaf0bfdc4df9ac45f825915</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Digital User Interface" target="Design Software Application">
+      <data key="d7">1.0</data>
+      <data key="d8">The Digital User Interface facilitates user interaction and navigation within the Design Software Application, enhancing usability.</data>
+      <data key="d9">navigation,user interaction</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Design Software Application" target="Find Dialogue Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Find Dialogue Box enhances the functionality of the Design Software Application by allowing users to search for tools and features efficiently.</data>
+      <data key="d9">search capability,tool functionality</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Domed Roof-Light SmartPart" target="Find Dialogue Box">
+      <data key="d7">1.0</data>
+      <data key="d8">The Domed Roof-Light SmartPart is searchable within the Find Dialogue Box, enabling users to locate specific design tools efficiently.</data>
+      <data key="d9">software navigation,tool search</data>
+      <data key="d10">chunk-4e138d02b6e470e2e208d53528f68cc6</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Allplan" target="User Interface">
+      <data key="d7">1.0</data>
+      <data key="d8">Allplan's user interface is a fundamental aspect of the application that impacts user experience.</data>
+      <data key="d9">application aspect,user experience</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface" target="Digital Tools">
+      <data key="d7">1.0</data>
+      <data key="d8">Understanding the user interface is necessary for navigating digital tools effectively.</data>
+      <data key="d9">navigation,usability</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface" target="Tool Configuration">
+      <data key="d7">1.0</data>
+      <data key="d8">The user interface of Allplan enables tool configuration, enhancing user engagement and functionality.</data>
+      <data key="d9">functionality,user engagement</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="User Interface" target="Search Capabilities">
+      <data key="d7">1.0</data>
+      <data key="d8">The user interface includes search capabilities that improve feature utilization and enhance overall user experience.</data>
+      <data key="d9">feature utilization,user experience</data>
+      <data key="d10">chunk-f252cc25af875c5aa94b5588bc400316</data>
+      <data key="d11">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d12">1763850907</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

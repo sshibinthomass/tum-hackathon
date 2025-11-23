@@ -53,10 +53,11 @@ nest_asyncio.apply()
 # Configure logging to reduce noise from format warnings
 logging.basicConfig(level=logging.INFO)
 
+
 # Create a custom filter to suppress specific warning messages
 class WarningFilter(logging.Filter):
     """Filter out repetitive LLM format warnings that are handled automatically."""
-    
+
     def filter(self, record):
         # Suppress LLM format error warnings (they're fixed automatically)
         if "LLM output format error" in record.getMessage():
@@ -67,15 +68,16 @@ class WarningFilter(logging.Filter):
             return False
         return True
 
+
 # Apply filter to root logger and common library loggers
-for logger_name in ['', 'raganything', 'lightrag', '__main__']:
+for logger_name in ["", "raganything", "lightrag", "__main__"]:
     logger = logging.getLogger(logger_name)
     logger.addFilter(WarningFilter())
 
 # Also suppress Python warnings
-warnings.filterwarnings('ignore', message='.*LLM output format error.*')
-warnings.filterwarnings('ignore', message='.*Entity extraction error.*')
-warnings.filterwarnings('ignore', message='.*Using regex fallback.*')
+warnings.filterwarnings("ignore", message=".*LLM output format error.*")
+warnings.filterwarnings("ignore", message=".*Entity extraction error.*")
+warnings.filterwarnings("ignore", message=".*Using regex fallback.*")
 
 
 def sanitize_model_name(model_name: str) -> str:
@@ -475,7 +477,7 @@ def _try_fix_multi_line_record(lines: list[str]) -> str:
 
 def create_llm_func(chat_model):
     """Create async LLM function wrapper with enhanced error handling and caching."""
-    
+
     # Cache for repeated prompts (helps with multimodal processing)
     prompt_cache = {}
 
@@ -485,7 +487,7 @@ def create_llm_func(chat_model):
         cache_key = hash(prompt)
         if cache_key in prompt_cache:
             return prompt_cache[cache_key]
-        
+
         max_attempts = 2  # Reduced from 3 since we have format fixing
         last_error = None
 
@@ -541,14 +543,14 @@ def create_embedding_func(embedding_model):
     # Get embedding dimension once
     sample_embedding = embedding_model.embed_documents(["test"])
     embedding_dim = len(sample_embedding[0])
-    
+
     # Simple cache for repeated embeddings
     embedding_cache = {}
 
     async def embedding_func(texts):
         if isinstance(texts, str):
             texts = [texts]
-        
+
         # Check cache for each text
         uncached_texts = []
         cached_results = {}
@@ -558,7 +560,7 @@ def create_embedding_func(embedding_model):
                 cached_results[i] = embedding_cache[cache_key]
             else:
                 uncached_texts.append((i, text))
-        
+
         # Get embeddings for uncached texts
         if uncached_texts:
             loop = asyncio.get_event_loop()
@@ -566,13 +568,13 @@ def create_embedding_func(embedding_model):
             new_embeddings = await loop.run_in_executor(
                 None, embedding_model.embed_documents, uncached_only
             )
-            
+
             # Cache new embeddings
             for (i, text), embedding in zip(uncached_texts, new_embeddings):
                 cache_key = hash(text)
                 embedding_cache[cache_key] = embedding
                 cached_results[i] = embedding
-        
+
         # Reconstruct results in original order
         return [cached_results[i] for i in range(len(texts))]
 

@@ -139,3 +139,6 @@ answer, docs = query_document(query, rag_instance, show_context=True)
 - ✅ Clear separation of concerns
 
 
+
+
+

@@ -12,6 +12,9 @@ import sys
 import asyncio
 import warnings
 from pathlib import Path
+import argparse
+import json
+import random
 
 # Suppress google-cloud-storage deprecation warning
 warnings.filterwarnings(
@@ -91,10 +94,20 @@ def query_improved(
     # Check if storage exists
     storage_path = Path(working_dir)
     if not storage_path.exists() or not list(storage_path.glob("*.json")):
-        raise FileNotFoundError(
-            f"Storage not found at {working_dir}. "
-            "Please run store.py first to process documents."
-        )
+        print(f"Storage not found at {working_dir}. Searching for latest storage...")
+        # Find latest rag_storage directory
+        storage_dirs = list(Path(".").glob("rag_storage_*"))
+        if storage_dirs:
+            # Sort by modification time
+            latest_storage = max(storage_dirs, key=lambda p: p.stat().st_mtime)
+            print(f"Found latest storage: {latest_storage}")
+            working_dir = str(latest_storage)
+            storage_path = latest_storage
+        else:
+            raise FileNotFoundError(
+                f"Storage not found at {working_dir} and no other storage found. "
+                "Please run store.py first to process documents."
+            )
     
     # Initialize models
     print(f"Using chat provider: {config.query_chat_provider}")
@@ -185,29 +198,91 @@ def query_improved(
     return answer, relevant_docs
 
 
+def run_qa_test(qa_file_path: str, num_questions: int = 3):
+    """Run a test against the QA dataset."""
+    try:
+        with open(qa_file_path, 'r') as f:
+            qa_data = json.load(f)
+        
+        print(f"\nLoaded {len(qa_data)} questions from {qa_file_path}")
+        
+        # Select random questions
+        selected_qa = random.sample(qa_data, min(num_questions, len(qa_data)))
+        
+        for i, item in enumerate(selected_qa, 1):
+            question = item['question']
+            expected_answer = item['answer']
+            
+            print(f"\n{'#'*80}")
+            print(f"TEST QUESTION {i}/{len(selected_qa)}")
+            print(f"{'#'*80}")
+            print(f"Question: {question}")
+            print(f"Expected Answer: {expected_answer}")
+            print(f"{'-'*80}")
+            
+            try:
+                answer, relevant_docs = query_improved(question, show_retrieved_docs=False)
+                print(f"RAG Answer: {answer}")
+                print(f"Contexts Used: {len(relevant_docs)}")
+            except Exception as e:
+                print(f"Error querying: {e}")
+                
+    except Exception as e:
+        print(f"Error running QA test: {e}")
+
 def main():
     """Main entry point."""
+    parser = argparse.ArgumentParser(description="RAG Query Tool")
+    parser.add_argument("question", nargs="?", help="The question to ask")
+    parser.add_argument("--test-qa", action="store_true", help="Run a test against the QA dataset")
+    parser.add_argument("--qa-file", default="../data/generated_qa_data_tum.json", help="Path to QA JSON file")
+    parser.add_argument("--num-questions", type=int, default=3, help="Number of QA questions to test")
     
-    query_text = (
-        "List all authors of the paper 'Attention is All You Need' with their "
-        "institutional email addresses as published in the paper. "
-        "This is publicly available academic information from the published paper."
-    )
+    parser.add_argument("--storage-path", help="Path to RAG storage directory")
     
-    try:
-        answer, relevant_docs = query_improved(query_text, show_retrieved_docs=True)
-        print("\n" + "=" * 80)
-        print("ANSWER")
-        print("=" * 80)
-        print(answer)
-        print("=" * 80)
-        print(f"\n✓ Used {len(relevant_docs)} relevant document(s) for context")
-    except Exception as e:
-        print(f"Error: {e}")
-        import traceback
-        traceback.print_exc()
-        sys.exit(1)
+    args = parser.parse_args()
+    
+    # Override config storage path if provided
+    if args.storage_path:
+        config.query_rag_storage_path = args.storage_path
 
+    if args.test_qa:
+        run_qa_test(args.qa_file, args.num_questions)
+    elif args.question:
+        try:
+            answer, relevant_docs = query_improved(args.question, working_dir=args.storage_path, show_retrieved_docs=True)
+            print("\n" + "=" * 80)
+            print("ANSWER")
+            print("=" * 80)
+            print(answer)
+            print("=" * 80)
+            print(f"\n✓ Used {len(relevant_docs)} relevant document(s) for context")
+        except Exception as e:
+            print(f"Error: {e}")
+            import traceback
+            traceback.print_exc()
+            sys.exit(1)
+    else:
+        # Default behavior (legacy)
+        query_text = (
+            "List all authors of the paper 'Attention is All You Need' with their "
+            "institutional email addresses as published in the paper. "
+            "This is publicly available academic information from the published paper."
+        )
+        print("No question provided. Running default test query...")
+        try:
+            answer, relevant_docs = query_improved(query_text, working_dir=args.storage_path, show_retrieved_docs=True)
+            print("\n" + "=" * 80)
+            print("ANSWER")
+            print("=" * 80)
+            print(answer)
+            print("=" * 80)
+            print(f"\n✓ Used {len(relevant_docs)} relevant document(s) for context")
+        except Exception as e:
+            print(f"Error: {e}")
+            import traceback
+            traceback.print_exc()
+            sys.exit(1)
 
 if __name__ == "__main__":
     main()

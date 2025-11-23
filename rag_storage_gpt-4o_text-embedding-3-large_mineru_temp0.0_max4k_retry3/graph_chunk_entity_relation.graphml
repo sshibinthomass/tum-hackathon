@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Find Dialog Box in Software Interface (image)">
+      <data key="d0">Find Dialog Box in Software Interface (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">The image shows a 'Find...' dialog box from a software interface, featuring options to input search terms, refine search criteria, and select search direction. It relates to the Actionbar context, where users can find and access tools efficiently.</data>
+      <data key="d3">chunk-59f3cf18680caed2437aa58ca9105cd8</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Actionbar Interface with Find Dialog (image)">
+      <data key="d0">Actionbar Interface with Find Dialog (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">The image illustrates a software interface featuring an Actionbar with various tool categories and a Find dialog box. It demonstrates the process of searching for a tool, 'SmartPart', and highlights the result within the interface, reflecting the context of customizing and navigating tools in a software environment.</data>
+      <data key="d3">chunk-50d81d2239dd702bfffa8ffb1ad2e4b9</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Isolated Number 29 (discarded)">
+      <data key="d0">Isolated Number 29 (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The content is an isolated number '29' with no apparent connection to the surrounding discussion on the Actionbar's Find tool and Configurator. Its purpose and relevance are unclear without additional context.</data>
+      <data key="d3">chunk-122e5b8f87cb1a91901eb5c550afb6c3</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Allplan's User Interface Reference (discarded)">
+      <data key="d0">Allplan's User Interface Reference (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content briefly mentions 'Allplan's user interface,' likely serving as an introductory reference within the broader discussion of the Actionbar's functionalities. It provides context for understanding the interface's role in navigating and customizing the Actionbar, connecting to the detailed descriptions of the find and configurator tools.</data>
+      <data key="d3">chunk-cb1e39317d3dff3ee992ac3e5746eda8</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Installation and Basics Section (discarded)">
+      <data key="d0">Installation and Basics Section (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content 'Installation, Basics' likely served as an introductory section, providing foundational information on setting up or understanding the Actionbar. It connects to the broader context by potentially offering necessary background knowledge for users to effectively engage with the Actionbar's functionalities and customization options.</data>
+      <data key="d3">chunk-1fba5b2ba953ef303516e882631858a3</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Actionbar Configuration Interface (image)">
+      <data key="d0">Actionbar Configuration Interface (image)</data>
+      <data key="d1">image</data>
+      <data key="d2">This image shows the Actionbar Configuration interface, highlighting the customization options for roles and tasks within a software application. It complements the surrounding text by visually representing how users can configure and manage tools and roles, enhancing their workflow efficiency.</data>
+      <data key="d3">chunk-64be643c5d81545d7942a6b1192391a3</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Allplan 2020 Version Identifier (discarded)">
+      <data key="d0">Allplan 2020 Version Identifier (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content 'Allplan 2020' likely serves as a version identifier for the Allplan software, providing context for the features and functionalities discussed in the surrounding content. Its presence helps clarify which version of the software the described tools and configurations apply to.</data>
+      <data key="d3">chunk-41fda97e691a1a476e43db0d300ab749</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Numeric Value '30' (discarded)">
+      <data key="d0">Numeric Value '30' (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content is a numeric value '30' found on page 1, with no clear connection to the surrounding context of Actionbar tools and configuration on page 0. Its purpose and relevance remain undefined without additional context.</data>
+      <data key="d3">chunk-1223d913b7a528d6299e7f944af53b65</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Actionbar Header (discarded)">
+      <data key="d0">Actionbar Header (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content 'Actionbar' likely serves as a header or label on page 1, continuing the discussion from page 0 about the Actionbar's functionalities, such as finding tools and configuring roles. It maintains thematic continuity and emphasizes the Actionbar's importance in the user interface.</data>
+      <data key="d3">chunk-489f6a020422758742ee637ad245164f</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+    <node id="Isolated Chinese Character (discarded)">
+      <data key="d0">Isolated Chinese Character (discarded)</data>
+      <data key="d1">discarded</data>
+      <data key="d2">The discarded content is a single Chinese character '中', meaning 'middle' or 'center'. It appears isolated on the page and does not relate to the surrounding content about the Actionbar's functionalities. Its purpose and connection to the broader context are unclear without additional information.</data>
+      <data key="d3">chunk-96680ea48b57055f0a369999fc79f0ee</data>
+      <data key="d4">Allplan_2020_Manual_2_pages.pdf</data>
+      <data key="d5">1763851207</data>
+    </node>
+  </graph>
+</graphml>

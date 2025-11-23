@@ -28,6 +28,13 @@ import os
 import argparse
 import time
 from pathlib import Path
+import sys
+
+# Ensure venv bin is in PATH for subprocess calls (like mineru)
+venv_bin = Path(sys.executable).parent
+if str(venv_bin) not in os.environ["PATH"]:
+    os.environ["PATH"] = f"{venv_bin}:{os.environ['PATH']}"
+
 from functools import lru_cache
 from typing import List, Optional
 
@@ -41,7 +48,8 @@ from langchain_groq import ChatGroq
 
 # Import Gemini and Anthropic (with fallback if not installed)
 try:
-    from langchain_google_vertexai import ChatVertexAI
+    # from langchain_google_vertexai import ChatVertexAI
+    pass
 except ImportError:
     try:
         from langchain_google_genai import ChatGoogleGenerativeAI as ChatVertexAI
@@ -721,9 +729,18 @@ async def store_document(
     start_time = time.time()
     
     # Setup paths
+    print(f"DEBUG: glob.DATA_PKG_DIR = {glob.DATA_PKG_DIR}")
     file_path = Path(glob.DATA_PKG_DIR) / filename
+    print(f"DEBUG: file_path = {file_path}")
     if not file_path.exists():
-        raise FileNotFoundError(f"Document not found: {file_path}")
+        print(f"DEBUG: File does not exist at {file_path}")
+        # Try looking in ../data
+        alt_path = Path("../data") / filename
+        if alt_path.exists():
+            print(f"DEBUG: Found file at {alt_path}")
+            file_path = alt_path
+        else:
+            raise FileNotFoundError(f"Document not found: {file_path}")
 
     # Get model names and generate paths
     chat_provider = chat_provider or config.chat_provider
