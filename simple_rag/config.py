@@ -1,6 +1,6 @@
 chat_provider = "openai"
 embedding_provider = "openai"
-chat_model = "gpt-4o"  # Correct OpenAI model name
+chat_model = "gpt-4o-mini"  # Correct OpenAI model name
 embedding_model = "text-embedding-3-large"  # 3072 dimensions
 parser = "mineru"
 
@@ -12,7 +12,7 @@ llm_max_retries = 3  # Retry on failures for better reliability
 # Query-specific settings (can be different from storage settings)
 query_chat_provider = "openai"
 query_embedding_provider = "openai"
-query_chat_model = "gpt-4o"  # Correct OpenAI model name
+query_chat_model = "gpt-4o-mini"  # Correct OpenAI model name
 query_embedding_model = "text-embedding-3-large"  # Must match storage embedding model!
 query_rag_storage_path = "/Users/qtf4195/tum-hackathon/simple_rag/rag_storage_gpt-4o_text-embedding-3-large_mineru_temp0.0_max4k_retry3"
 
